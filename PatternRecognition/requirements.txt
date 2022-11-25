@@ -1,0 +1,5 @@
+numpy >= 1.23.4
+matplotlib >= 3.6.1
+pydicom >= 2.3.0
+gekko >= 1.0.5
+PyWavelets >= 1.4.1
