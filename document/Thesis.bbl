@@ -1,0 +1,526 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{1}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=40e5728fff38b84173fa22bb966b0b4f}{%
+           family={Ballard\bibnamedelima D.},
+           familyi={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Sklansky\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{40e5728fff38b84173fa22bb966b0b4f}
+      \strng{fullhash}{40e5728fff38b84173fa22bb966b0b4f}
+      \strng{bibnamehash}{40e5728fff38b84173fa22bb966b0b4f}
+      \strng{authorbibnamehash}{40e5728fff38b84173fa22bb966b0b4f}
+      \strng{authornamehash}{40e5728fff38b84173fa22bb966b0b4f}
+      \strng{authorfullhash}{40e5728fff38b84173fa22bb966b0b4f}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tumor detection in radiographs. Computers and Biomedical Research}
+      \field{year}{1973}
+    \endentry
+    \entry{4}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=5bc8d35070c28562a3f2ee213487a559}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={HeangPing},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc6b7b1c9927e80b1d7fb5dbea806470}{%
+           family={Doi},
+           familyi={D\bibinitperiod},
+           given={Kunio},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d06c7a1f0706a2afbde2e0bc9eac1002}{%
+           family={Galhotra},
+           familyi={G\bibinitperiod},
+           given={Simranjit},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=218b6db9c33367f44fb4a85fc74b4556}{%
+           family={Vyborny},
+           familyi={V\bibinitperiod},
+           given={Carl\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f074b163d21ddbe5f48fba11cc14cc57}{%
+           family={MacMahon},
+           familyi={M\bibinitperiod},
+           given={Heber},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b81512b3912ba1b91ff68a81e2a97be}{%
+           family={Jokich},
+           familyi={J\bibinitperiod},
+           given={Peter\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d35956b48184ebd79fbf373affa46776}
+      \strng{fullhash}{90eae67cd37b55886ed78b3d385ca5c9}
+      \strng{bibnamehash}{90eae67cd37b55886ed78b3d385ca5c9}
+      \strng{authorbibnamehash}{90eae67cd37b55886ed78b3d385ca5c9}
+      \strng{authornamehash}{d35956b48184ebd79fbf373affa46776}
+      \strng{authorfullhash}{90eae67cd37b55886ed78b3d385ca5c9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Image feature analysis and computeraided diagnosis in digital radiography. I. Automated detection of microcalcifications in mammography}
+      \field{year}{1987}
+    \endentry
+    \entry{16}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2963b2ab7a4f2a01c952fcc99f65c3a7}{%
+           family={Salud\bibnamedelima (OMS)},
+           familyi={S\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Organización\bibnamedelima Mundial},
+           giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0,
+           prefix={de\bibnamedelima la},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+      }
+      \strng{namehash}{2963b2ab7a4f2a01c952fcc99f65c3a7}
+      \strng{fullhash}{2963b2ab7a4f2a01c952fcc99f65c3a7}
+      \strng{bibnamehash}{2963b2ab7a4f2a01c952fcc99f65c3a7}
+      \strng{authorbibnamehash}{2963b2ab7a4f2a01c952fcc99f65c3a7}
+      \strng{authornamehash}{2963b2ab7a4f2a01c952fcc99f65c3a7}
+      \strng{authorfullhash}{2963b2ab7a4f2a01c952fcc99f65c3a7}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.who.int/es/news-room/fact-sheets/detail/cancer}}
+      \field{title}{Cáncer}
+    \endentry
+    \entry{17}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32372b66025417f6bec18021c9fef922}{%
+           family={Salud\bibnamedelima (OPS)},
+           familyi={S\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Organización\bibnamedelima Panamericana},
+           giveni={O\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0,
+           prefix={de\bibnamedelima la},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+      }
+      \strng{namehash}{32372b66025417f6bec18021c9fef922}
+      \strng{fullhash}{32372b66025417f6bec18021c9fef922}
+      \strng{bibnamehash}{32372b66025417f6bec18021c9fef922}
+      \strng{authorbibnamehash}{32372b66025417f6bec18021c9fef922}
+      \strng{authornamehash}{32372b66025417f6bec18021c9fef922}
+      \strng{authorfullhash}{32372b66025417f6bec18021c9fef922}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.paho.org/es/temas/cancer-mama}}
+      \field{title}{Cáncer de mama}
+    \endentry
+    \entry{8}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3e51b11d190efed3b1811b0dc3c2f2ed}{%
+           family={Frazier},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{fullhash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{bibnamehash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{authorbibnamehash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{authornamehash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{authorfullhash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to Wavelets Through Linear Algebra}
+      \field{year}{1999}
+      \field{pages}{181}
+      \range{pages}{1}
+    \endentry
+    \entry{9}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3e51b11d190efed3b1811b0dc3c2f2ed}{%
+           family={Frazier},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{fullhash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{bibnamehash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{authorbibnamehash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{authornamehash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \strng{authorfullhash}{3e51b11d190efed3b1811b0dc3c2f2ed}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to Wavelets Through Linear Algebra}
+      \field{year}{1999}
+      \field{pages}{209}
+      \range{pages}{1}
+    \endentry
+    \entry{6}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0cff11859a2daa7ec85b3a72e655844b}{%
+           family={Gargour},
+           familyi={G\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=adad0206785c03b4f193f077750d0020}{%
+           family={Gabrea},
+           familyi={G\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=618a8d90701f6bedb4dbea9f44bbf502}{%
+           family={Ramachandran},
+           familyi={R\bibinitperiod},
+           given={Venkatanarayana},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8e4f49f13760027df0627d44ebd1888}{%
+           family={Lina},
+           familyi={L\bibinitperiod},
+           given={Jean-Marc},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{465df9de6eb98df20160c7a629e95fe2}
+      \strng{fullhash}{2c9f67e008c60f4b92fa8f3592291ff7}
+      \strng{bibnamehash}{2c9f67e008c60f4b92fa8f3592291ff7}
+      \strng{authorbibnamehash}{2c9f67e008c60f4b92fa8f3592291ff7}
+      \strng{authornamehash}{465df9de6eb98df20160c7a629e95fe2}
+      \strng{authorfullhash}{2c9f67e008c60f4b92fa8f3592291ff7}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Short Introduction to Waveelets and Their Applications}
+      \field{year}{2009}
+    \endentry
+    \entry{10}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=66553ef7d57608561e914918f6e947af}{%
+           family={Guido},
+           familyi={G\bibinitperiod},
+           given={Rodrigo\bibnamedelima Capobianco},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66553ef7d57608561e914918f6e947af}
+      \strng{fullhash}{66553ef7d57608561e914918f6e947af}
+      \strng{bibnamehash}{66553ef7d57608561e914918f6e947af}
+      \strng{authorbibnamehash}{66553ef7d57608561e914918f6e947af}
+      \strng{authornamehash}{66553ef7d57608561e914918f6e947af}
+      \strng{authorfullhash}{66553ef7d57608561e914918f6e947af}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fusing time, frequency and shape-related information: Introduction to the Discrete Shapelet Transform’s second generation (DST-II)}
+      \field{year}{2017}
+    \endentry
+    \entry{11}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=66553ef7d57608561e914918f6e947af}{%
+           family={Guido},
+           familyi={G\bibinitperiod},
+           given={Rodrigo\bibnamedelima Capobianco},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ef8761450a4362f876a2fc7ac924346}{%
+           family={Junior},
+           familyi={J\bibinitperiod},
+           given={Sylvio\bibnamedelima Barbon},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6b071adf68941d14022681fff24633a}{%
+           family={Vieira},
+           familyi={V\bibinitperiod},
+           given={Lucimar\bibnamedelima Sasso},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f1d43d318f87a6461c913e02275bce5}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={Fabrício\bibnamedelima Lopes},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41fd06c2866e8b06a0672a7959c9d03b}{%
+           family={Maciel},
+           familyi={M\bibinitperiod},
+           given={Carlos\bibnamedelima Dias},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14d1e236deaa483211976a5944cd5fd4}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={José\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c2827713e4d4885a7eb221a7903653f}{%
+           family={Scalassara},
+           familyi={S\bibinitperiod},
+           given={Paulo\bibnamedelima Rogério},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a3fcad33d40e43686a2006b13d36912}{%
+           family={Fonseca},
+           familyi={F\bibinitperiod},
+           given={Everthon\bibnamedelima Silva},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ae0f1f47523cf8dafbfd713a5f16b755}
+      \strng{fullhash}{b69f0c49c2fd1267287102e72ba3dfb5}
+      \strng{bibnamehash}{b69f0c49c2fd1267287102e72ba3dfb5}
+      \strng{authorbibnamehash}{b69f0c49c2fd1267287102e72ba3dfb5}
+      \strng{authornamehash}{ae0f1f47523cf8dafbfd713a5f16b755}
+      \strng{authorfullhash}{b69f0c49c2fd1267287102e72ba3dfb5}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to the Discrete Shapelet Transform and a new paradigm: joint time-frequency-shape analysis}
+      \field{year}{2008}
+    \endentry
+    \entry{5}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6427a80123463aeb5811dfc28de0cbf1}{%
+           family={José\bibnamedelima Salvado},
+           familyi={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Bruno\bibnamedelima Roque},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6427a80123463aeb5811dfc28de0cbf1}
+      \strng{fullhash}{6427a80123463aeb5811dfc28de0cbf1}
+      \strng{bibnamehash}{6427a80123463aeb5811dfc28de0cbf1}
+      \strng{authorbibnamehash}{6427a80123463aeb5811dfc28de0cbf1}
+      \strng{authornamehash}{6427a80123463aeb5811dfc28de0cbf1}
+      \strng{authorfullhash}{6427a80123463aeb5811dfc28de0cbf1}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Detection of Calcifications in Digital Mammograms using Wavelet Analysis and Contrast Enhancement}
+      \field{year}{2005}
+    \endentry
+    \entry{13}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1f1206855edbc8b2cd27417eda8272ed}{%
+           family={Logan\bibnamedelima Beal},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={John\bibnamedelima Hedengren},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1f1206855edbc8b2cd27417eda8272ed}
+      \strng{fullhash}{1f1206855edbc8b2cd27417eda8272ed}
+      \strng{bibnamehash}{1f1206855edbc8b2cd27417eda8272ed}
+      \strng{authorbibnamehash}{1f1206855edbc8b2cd27417eda8272ed}
+      \strng{authornamehash}{1f1206855edbc8b2cd27417eda8272ed}
+      \strng{authorfullhash}{1f1206855edbc8b2cd27417eda8272ed}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gekko.readthedocs.io/en/latest/}}
+      \field{title}{GEKKO Optimization Suite}
+    \endentry
+    \entry{3}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c8948d97fdaef93940317cf37adedd4c}{%
+           family={Masahiko\bibnamedelima Yachida},
+           familyi={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           given={Motozo\bibnamedelima Ikeda},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bbb3dfccdd168c66515b36d98981415}{%
+           family={Tsuji},
+           familyi={T\bibinitperiod},
+           given={Saburo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{daa8cb2289a5030a83a88d831f1a30b9}
+      \strng{fullhash}{daa8cb2289a5030a83a88d831f1a30b9}
+      \strng{bibnamehash}{daa8cb2289a5030a83a88d831f1a30b9}
+      \strng{authorbibnamehash}{daa8cb2289a5030a83a88d831f1a30b9}
+      \strng{authornamehash}{daa8cb2289a5030a83a88d831f1a30b9}
+      \strng{authorfullhash}{daa8cb2289a5030a83a88d831f1a30b9}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Plan-Guided Analysis of Cineangiograms for Measurement of Dynamic Behavior of Heart Wall}
+      \field{year}{1980}
+    \endentry
+    \entry{7}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90b4310c02a41dde894a2c34cc7f894b}{%
+           family={Mecías},
+           familyi={M\bibinitperiod},
+           given={Angela\bibnamedelima León},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90b4310c02a41dde894a2c34cc7f894b}
+      \strng{fullhash}{90b4310c02a41dde894a2c34cc7f894b}
+      \strng{bibnamehash}{90b4310c02a41dde894a2c34cc7f894b}
+      \strng{authorbibnamehash}{90b4310c02a41dde894a2c34cc7f894b}
+      \strng{authornamehash}{90b4310c02a41dde894a2c34cc7f894b}
+      \strng{authorfullhash}{90b4310c02a41dde894a2c34cc7f894b}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Notas de clases, Matemática Numérica, Facultad de Matemática y Computación de La Universidad de La Habana}
+      \field{year}{2016}
+    \endentry
+    \entry{2}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ae62f80ffa0948d3689de3a4c779a996}{%
+           family={Pizer},
+           familyi={P\bibinitperiod},
+           given={Stephen\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5eb28183c1936e8205467addab4294e9}{%
+           family={Todd-Pokropek},
+           familyi={T\bibinithyphendelim P\bibinitperiod},
+           given={Andrew\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a54f5f3cbd80f846e9bfc652c155aab}
+      \strng{fullhash}{9a54f5f3cbd80f846e9bfc652c155aab}
+      \strng{bibnamehash}{9a54f5f3cbd80f846e9bfc652c155aab}
+      \strng{authorbibnamehash}{9a54f5f3cbd80f846e9bfc652c155aab}
+      \strng{authornamehash}{9a54f5f3cbd80f846e9bfc652c155aab}
+      \strng{authorfullhash}{9a54f5f3cbd80f846e9bfc652c155aab}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Improvement of Scintigrams by Computer Processing}
+      \field{year}{1978}
+    \endentry
+    \entry{15}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pydicom.github.io/}}
+      \field{title}{Pydicom}
+    \endentry
+    \entry{14}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pywavelets.readthedocs.io/en/latest/ref/wavelets.html}}
+      \field{title}{Wavelets Documentation}
+    \endentry
+    \entry{12}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f18c1d93a90104def62e58bff44cd03f}{%
+           family={Zhi\bibnamedelima Shi},
+           familyi={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Bao-Yu\bibnamedelima Peng},
+           giveni={B\bibinithyphendelim Y\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0,
+           suffix={Hai-Yan\bibnamedelima Xing},
+           suffixi={H\bibinithyphendelim Y\bibinitperiod\bibinitdelim X\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{f18c1d93a90104def62e58bff44cd03f}
+      \strng{fullhash}{f18c1d93a90104def62e58bff44cd03f}
+      \strng{bibnamehash}{f18c1d93a90104def62e58bff44cd03f}
+      \strng{authorbibnamehash}{f18c1d93a90104def62e58bff44cd03f}
+      \strng{authornamehash}{f18c1d93a90104def62e58bff44cd03f}
+      \strng{authorfullhash}{f18c1d93a90104def62e58bff44cd03f}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TWO-DIMENSIONAL BIORTHONORMAL WAVELETS ON ZN1 X ZN2}
+      \field{year}{2009}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,52 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Introducción}{1}{chapter*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Estado del Arte}{3}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Introducci\'on a las Wavelets}{4}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Definiciones}{5}{subsection.1.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Banco de Filtros}{7}{subsection.1.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Trasformada Discreta de Shapelet}{9}{subsection.1.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Wavelets en dos dimensiones}{14}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Definiciones}{14}{subsection.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Banco de filtros}{15}{subsection.1.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Propuesta}{18}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Definici\'on del filtro}{18}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}C\'alculo del filtro}{20}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Detalles de Implementación y Experimentos}{23}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}M\'etodos para resolver sistemas de ecuaciones}{24}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}M\'etodo de Newton}{24}{subsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}M\'etodo de Cuasi Newton}{25}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}M\'etodo de Descenso por Gradiente}{25}{subsection.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}M\'etodo de Runge Kutta}{26}{subsection.3.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.5}Gekko}{27}{subsection.3.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.6}Mejores Resultados}{28}{subsection.3.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Algoritmo de reconocimiento en una dimensi\'on}{29}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Algoritmo de reconocimiento en dos dimensiones}{31}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusiones}{38}{section*.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Recomendaciones}{39}{section*.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliograf\'{\i }a}{40}{chapter*.30}%

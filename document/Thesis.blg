@@ -1,0 +1,18 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[1] Config.pm:307> INFO - Logfile is 'Thesis.blg'
+[121] biber:322> INFO - === jue nov 24, 2022, 23:22:18
+[199] Biber.pm:415> INFO - Reading 'Thesis.bcf'
+[316] Biber.pm:943> INFO - Found 17 citekeys in bib section 0
+[368] Biber.pm:4256> INFO - Processing section 0
+[368] Utils.pm:75> INFO - Globbing data source 'Bibliography.bib'
+[369] Utils.pm:91> INFO - Globbed data source 'Bibliography.bib' to Bibliography.bib
+[400] Biber.pm:4455> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[403] bibtex.pm:1653> INFO - LaTeX decoding ...
+[420] bibtex.pm:1471> INFO - Found BibTeX data source 'Bibliography.bib'
+[575] Utils.pm:293> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[630] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[631] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[631] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[663] bbl.pm:652> INFO - Writing 'Thesis.bbl' with encoding 'UTF-8'
+[682] bbl.pm:755> INFO - Output to Thesis.bbl
+[683] Biber.pm:128> INFO - WARNINGS: 1
