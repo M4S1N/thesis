@@ -1,6 +1,3 @@
-% Created by Yasser González-Fernández <ygonzalezfernandez@gmail.com>
-% Created by Ariel Hernández Amador <gnuaha7@uh.cu>
-
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{uhthesis}[2011/04/12 0.1 uhthesis]
 
@@ -21,16 +18,16 @@
 \RequirePackage[nottoc,notlof,notlot]{tocbibind}
 \RequirePackage{footmisc}
 \RequirePackage{csquotes}
-\RequirePackage[
-	style=apa,
-	citestyle=authoryear,
-  hyperref=true,
-	backref=true
-	]{biblatex}
 \RequirePackage[linktocpage,breaklinks,colorlinks,%
                 linkcolor=black,anchorcolor=black,citecolor=black,%
                 filecolor=black,menucolor=black,runcolor=black,%
                 urlcolor=black]{hyperref}
+\RequirePackage[
+	style=apa,
+	citestyle=numeric,
+  hyperref=true,
+	backref=true
+	]{biblatex}
                 
 % fancyhdr settings from texlive-doc
 \RequirePackage{fancyhdr}
