@@ -1,94 +1,94 @@
 \chapter{Propuesta}\label{chapter:proposal}
 
-\par Hasta el momento se conoce como crear un banco de filtros en $\ell^2(\mathbb{Z}_N)$ tal que la DST-II sea capaz de reconocer un patr\'on en una se\~nal unidimensional. Tal como se vio en la secci\'on 1.2, una im\'agen puede ser definida como un vector en $\ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ al igual que un patr\'on. Si bien, en el estudio de la transformada de Shapelet de una dimensi\'on era posible construir un filtro que reconociese un patr\'on dado, dicha tarea tambi\'en es posible realizarla en dos dimensiones, aunque para ello sea necesario realizar algunos ajustes y consideraciones extras.\\
+\par Hasta el momento se conoce c\'omo crear un banco de filtros en $\ell^2(\mathbb{Z}_N)$ tal que la DST-II sea capaz de reconocer un patr\'on en una se\~nal unidimensional. Tal como se vio en la secci\'on 1.2, una imagen puede ser definida como un vector de $L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$, al igual que un patr\'on. Si bien en el estudio de la transformada shapelet de una dimensi\'on fue posible construir un filtro que reconociese un patr\'on dado, dicha tarea tambi\'en es posible realizarla en dos dimensiones, aunque para ello sea necesario realizar algunos ajustes y consideraciones extras.\\
 
 \section{Definici\'on del filtro}
 
-\par Como bien se sabe, para determinar el banco de filtros de la Shapelet se debe resolver primeramente un sistema no lineal cuyas variables son las componentes del vector que se usar\'a para construir la base wavelet. Dicho vector pertenece al espacio $\ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ por lo que contiene un total de $N_1N_2$ componentes. A la hora de resolver el sistema de ecuaciones se estar\'ia tratando con un sistema sumamente costoso para los equipos de c\'omputos actuales. Por tanto, es necesario encontrar una alternativa para obtener dicho vector.\\
+\par Como bien se sabe, para determinar el banco de filtros shapelet se debe resolver, primeramente, un sistema no lineal cuyas variables son las componentes del vector que se usar\'a para construir la base wavelet. Dicho vector pertenece al espacio $L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$, por lo que contiene un total de $N_1N_2$ componentes. A la hora de resolver el sistema de ecuaciones se estar\'ia tratando con un sistema sumamente costoso para los equipos de c\'omputos actuales. Por tanto, es necesario encontrar una alternativa para obtener dicho vector.\\
 
-\par Seg\'un se analiz\'o anteriormente, la resoluci\'on del sistema de ecuaciones no lineal que se obtiene tratando con vectores en una dimensi\'on es m\'as factible que la de dos dimensiones; entonces, ?`ser\'ia posible construir un vector en $\ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ a partir de un vector en $\ell^2(\mathbb{Z}_N)$?
+\par Seg\'un se analiz\'o anteriormente, la resoluci\'on del sistema de ecuaciones no lineal que se obtiene tratando con vectores en una dimensi\'on es m\'as factible que la de dos dimensiones; entonces, ?`ser\'ia posible construir un vector en $L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ a partir de un vector en $L^2(\mathbb{Z}_N)$?
 
-\par Suponga que $N$ es un entro positivo par y que se tienen dos vetores $v_0,v_1\in\ell^2(\mathbb{Z}_N)$ tal que $\{R_{2k}v_0\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}v_1\}_{k=0}^{\frac{N}{2}-1}$ constituye una base ortonormal de $\ell^2(\mathbb{Z}_N)$ y cuatro vectores $w_{0,0},w_{0,1},w_{1,0},w_{1,1}\in\ell^2(\mathbb{Z}_N\times\mathbb{Z}_N)$ tal que:
+\par Sup\'ongase que $N$ es un entero positivo par y que se tienen dos vetores $v_0,v_1\in L^2(\mathbb{Z}_N)$, tal que $\{R_{2k}v_0\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}v_1\}_{k=0}^{\frac{N}{2}-1}$ constituye una base ortonormal de $L^2(\mathbb{Z}_N)$, y cuatro vectores $w_{0,0},w_{0,1},w_{1,0},w_{1,1}\in L^2(\mathbb{Z}_N\times\mathbb{Z}_N)$ tal que:
 \begin{eqnarray}
 \begin{array}{c}
-w_{0,0}(n_1,n_2)=v_0(n_1)v_0(n_2)\\
-w_{0,1}(n_1,n_2)=v_0(n_1)v_1(n_2)\\
-w_{1,0}(n_1,n_2)=v_1(n_1)v_0(n_2)\\
-w_{1,1}(n_1,n_2)=v_1(n_1)v_1(n_2)
+w_{0,0}(n_1,n_2)=v_0(n_1)v_0(n_2),\\
+w_{0,1}(n_1,n_2)=v_0(n_1)v_1(n_2),\\
+w_{1,0}(n_1,n_2)=v_1(n_1)v_0(n_2),\\
+w_{1,1}(n_1,n_2)=v_1(n_1)v_1(n_2),
 \label{definicion-filtro-2d}
 \end{array}
 \end{eqnarray}
-para todo $w_{i,j}$ con $i,j\in\{0,1\}$ entonces se cumple que:
+para todo $w_{i,j}$ con $i,j\in\{0,1\}$. Entonces se cumple que:
 \begin{eqnarray}
 \hat{w}_{i,j}(m_1,m_2)&=&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}w_{i,j}(n_1,n_2)e^{\frac{-2\pi im_1n_1}{N}}e^{\frac{-2\pi im_2n_2}{N}}\nonumber\\
 &=&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v_i(n_1)v_j(n_2)e^{\frac{-2\pi im_1n_1}{N}}e^{\frac{-2\pi im_2n_2}{N}}\nonumber\\
 &=&\left(\sum_{n_1=0}^{N-1}v_i(n_1)e^{\frac{-2\pi im_1n_1}{N}}\right)\left(\sum_{n_2=0}^{N-1}v_j(n_2)e^{\frac{-2\pi im_2n_2}{N}}\right)\nonumber\\
-\hat{w}_{i,j}(m_1,m_2)&=&\hat{v}_i(m_1)\hat{v}_j(m_2)\nonumber
+&=&\hat{v}_i(m_1)\hat{v}_j(m_2),\nonumber
 \end{eqnarray}
-con lo cual se tiene una expresi\'on para $\hat{w}_{i,j}$ en funci\'on de los vectores $v_i$ y $v_j$ que lo componen. Considere ahora el teorema 1.1, tal que $u^1$, $u^2$, $u^3$ y $u^4$ se definen como:
+con lo cual se tiene una expresi\'on para $\hat{w}_{i,j}$ en funci\'on de los vectores $v_i$ y $v_j$ que lo componen. Consid\'erese ahora el Teorema 1.1, tal que $u^1$, $u^2$, $u^3$ y $u^4$ se definen como:
 \begin{eqnarray}
-u^1&=&\hat{w}_{i_1,j_1}(m_1,m_2)\overline{\hat{w}_{i_2,j_2}(m_1,m_2)}=\hat{v}_{i_1}(m_1)\hat{v}_{j_1}(m_2)\overline{\hat{v}_{i_2}(m_1)}\overline{\hat{v}_{j_2}(m_2)}\nonumber\\
-u^2&=&\hat{w}_{i_1,j_1}\left(m_1,m_2+\frac{N}{2}\right)\overline{\hat{w}_{i_2,j_2}\left(m_1,m_2+\frac{N}{2}\right)}\nonumber\\&=&\hat{v}_{i_1}(m_1)\hat{v}_{j_1}\left(m_2+\frac{N}{2}\right)\overline{\hat{v}_{i_2}(m_1)}\overline{\hat{v}_{j_2}\left(m_2+\frac{N}{2}\right)}\nonumber\\
-u^3&=&\hat{w}_{i_1,j_1}\left(m_1+\frac{N}{2},m_2\right)\overline{\hat{w}_{i_2,j_2}\left(m_1+\frac{N}{2},m_2\right)}\nonumber\\&=&\hat{v}_{i_1}\left(m_1+\frac{N}{2}\right)\hat{v}_{j_1}\left(m_2\right)\overline{\hat{v}_{i_2}\left(m_1+\frac{N}{2}\right)}\overline{\hat{v}_{j_2}\left(m_2\right)}\nonumber\\
-u^4&=&\hat{w}_{i_1,j_1}\left(m_1+\frac{N}{2},m_2+\frac{N}{2}\right)\overline{\hat{w}_{i_2,j_2}\left(m_1+\frac{N}{2},m_2+\frac{N}{2}\right)}\nonumber\\&=&\hat{v}_{i_1}\left(m_1+\frac{N}{2}\right)\hat{v}_{j_1}\left(m_2+\frac{N}{2}\right)\overline{\hat{v}_{i_2}\left(m_1+\frac{N}{2}\right)}\overline{\hat{v}_{j_2}\left(m_2+\frac{N}{2}\right)}\nonumber
+u^1&=&\hat{w}_{i_1,j_1}(m_1,m_2)\overline{\hat{w}_{i_2,j_2}(m_1,m_2)}=\hat{v}_{i_1}(m_1)\hat{v}_{j_1}(m_2)\overline{\hat{v}_{i_2}(m_1)}\overline{\hat{v}_{j_2}(m_2)},\nonumber\\
+u^2&=&\hat{w}_{i_1,j_1}\left(m_1,m_2+\frac{N}{2}\right)\overline{\hat{w}_{i_2,j_2}\left(m_1,m_2+\frac{N}{2}\right)}\nonumber\\&=&\hat{v}_{i_1}(m_1)\hat{v}_{j_1}\left(m_2+\frac{N}{2}\right)\overline{\hat{v}_{i_2}(m_1)}\overline{\hat{v}_{j_2}\left(m_2+\frac{N}{2}\right)},\nonumber\\
+u^3&=&\hat{w}_{i_1,j_1}\left(m_1+\frac{N}{2},m_2\right)\overline{\hat{w}_{i_2,j_2}\left(m_1+\frac{N}{2},m_2\right)}\nonumber\\&=&\hat{v}_{i_1}\left(m_1+\frac{N}{2}\right)\hat{v}_{j_1}\left(m_2\right)\overline{\hat{v}_{i_2}\left(m_1+\frac{N}{2}\right)}\overline{\hat{v}_{j_2}\left(m_2\right)},\nonumber\\
+u^4&=&\hat{w}_{i_1,j_1}\left(m_1+\frac{N}{2},m_2+\frac{N}{2}\right)\overline{\hat{w}_{i_2,j_2}\left(m_1+\frac{N}{2},m_2+\frac{N}{2}\right)}\nonumber\\&=&\hat{v}_{i_1}\left(m_1+\frac{N}{2}\right)\hat{v}_{j_1}\left(m_2+\frac{N}{2}\right)\overline{\hat{v}_{i_2}\left(m_1+\frac{N}{2}\right)}\overline{\hat{v}_{j_2}\left(m_2+\frac{N}{2}\right)}.\nonumber
 \end{eqnarray}
-\par Sea $s=u^1+u^2+u^3+u^4$, hallando factor com\'un $\hat{v}_{i_1}(m_1)\overline{\hat{v}_{i_2}(m_1)}$ y\linebreak $\hat{v}_{i_1}\left(m_1+\frac{N}{2}\right)\overline{\hat{v}_{i_2}\left(m_1+\frac{N}{2}\right)}$ se tiene:
+\par Sea $s=u^1+u^2+u^3+u^4$, hallando el factor com\'un $\hat{v}_{i_1}(m_1)\overline{\hat{v}_{i_2}(m_1)}$ y\linebreak $\hat{v}_{i_1}\left(m_1+\frac{N}{2}\right)\overline{\hat{v}_{i_2}\left(m_1+\frac{N}{2}\right)}$ se tiene:
 \begin{scriptsize}
 \begin{eqnarray}
-s=\left(\hat{v}_{i_1}(m_1)\overline{\hat{v}_{i_2}(m_1)}+\hat{v}_{i_1}\left(m_1+\frac{N}{2}\right)\overline{\hat{v}_{i_2}\left(m_1+\frac{N}{2}\right)}\right)\left(\hat{v}_{j_1}(m_2)\overline{\hat{v}_{j_2}(m_2)}+\hat{v}_{j_1}\left(m_2+\frac{N}{2}\right)\overline{\hat{v}_{j_2}\left(m_2+\frac{N}{2}\right)}\right)\nonumber
+s=\left(\hat{v}_{i_1}(m_1)\overline{\hat{v}_{i_2}(m_1)}+\hat{v}_{i_1}\left(m_1+\frac{N}{2}\right)\overline{\hat{v}_{i_2}\left(m_1+\frac{N}{2}\right)}\right)\left(\hat{v}_{j_1}(m_2)\overline{\hat{v}_{j_2}(m_2)}+\hat{v}_{j_1}\left(m_2+\frac{N}{2}\right)\overline{\hat{v}_{j_2}\left(m_2+\frac{N}{2}\right)}\right).\nonumber
 \end{eqnarray}
 \end{scriptsize}
-\par Como $\{R_{2k}v_0\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}v_1\}_{k=0}^{\frac{N}{2}-1}$ constituye una base ortonormal de $\ell^2(\mathbb{Z}_N)$, se cumple que la matriz:
+\par Como $\{R_{2k}v_0\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}v_1\}_{k=0}^{\frac{N}{2}-1}$ constituye una base ortonormal de $L^2(\mathbb{Z}_N)$, se cumple que, la matriz:
 \begin{eqnarray}
 \frac{1}{\sqrt{2}}\left[\begin{array}{cc}
 \hat{v}_0(n)&\hat{v}_1(n)\\
 \hat{v}_0\left(n+\frac{N}{2}\right)&\hat{v}_1\left(n+\frac{N}{2}\right)
-\end{array}\right]\nonumber
+\end{array}\right],\nonumber
 \end{eqnarray}
 es unitaria para toda $n$. Esto quiere decir que:
 \begin{eqnarray}
 \hat{v}_i(n)\overline{\hat{v}_j(n)}+\hat{v}_i\left(n+\frac{N}{2}\right)\overline{\hat{v}_j\left(n+\frac{N}{2}\right)}=\left\{\begin{array}{ll}
 2,&\quad\mbox{si $i=j$}\\
 0,&\quad\mbox{si $i\neq j$}
-\end{array}\right.\nonumber
+\end{array}\right.,\nonumber
 \end{eqnarray}
 por lo tanto:
 \begin{eqnarray}
 s&=&\left\{\begin{array}{ll}
 4,&\quad\mbox{si $i_1=i_2$ y $j_1=j_2$}\\
 0,&\quad\mbox{en caso contrario}
-\end{array}\right.\nonumber
+\end{array}\right.,\nonumber
 \end{eqnarray}
-y el conjunto $\displaystyle\bigcup_{i,j\in\{0,1\}}\{R_{2k_1,2k_2}w_{i,j}\}_{k_1=0,k_2=0}^{\frac{N}{2}-1,\frac{N}{2}-1}$ constituye un conjunto biortogonal en $\ell^2(\mathbb{Z}_N\times\mathbb{Z}_N)$. Este \'ultimo resultado trae como implicaci\'on que:
+y el conjunto $\displaystyle\bigcup_{i,j\in\{0,1\}}\{R_{2k_1,2k_2}w_{i,j}\}_{k_1=0,k_2=0}^{\frac{N}{2}-1,\frac{N}{2}-1}$ constituye un conjunto biortogonal en $L^2(\mathbb{Z}_N\times\mathbb{Z}_N)$. Este \'ultimo resultado trae como implicaci\'on que:
 \begin{eqnarray}
-\sum_{i=0}^1\sum_{j=0}^1w_{i,j}\ast U(D(z\ast\tilde{w}_{i,j}))&=&z\nonumber
+\sum_{i=0}^1\sum_{j=0}^1w_{i,j}\ast U(D(z\ast\tilde{w}_{i,j}))&=&z,\nonumber
 \end{eqnarray}
-constituya una reconstrucci\'on perfecta de $z$. Volviendo entonces a la interrogante de si era posible construir un filtro de dos dimensiones a partir de un vector de una dimensi\'on, si se define el vector de dos dimensiones como en~\ref{definicion-filtro-2d} se obtiene el filtro deseado. La \'unica condici\'on que debe cumplir es que $N_1=N_2=N$.
+constituya una reconstrucci\'on perfecta de $z$. Volviendo entonces a la interrogante de si era posible construir un filtro de dos dimensiones a partir de un vector de una dimensi\'on, si se define el vector de dos dimensiones como en~(\ref{definicion-filtro-2d}) se obtiene el filtro deseado. La \'unica condici\'on que debe cumplir es que $N_1=N_2=N$.
 
 \section{C\'alculo del filtro}
 
-\par Nuestro problema se reduce entonces a determinar un conjunto de vectores $v_0,v_1\in\ell^2(\mathbb{Z}_N)$ tal que $\{R_{2k}v_0\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}v_1\}_{k=0}^{\frac{N}{2}-1}$ constituya una base ortonormal en dicho espacio. Sin embargo en la secci\'on 1.1.3 se brinda un algoritmo para hallar dichos vectores a partir de un patr\'on de muestra. Por tanto, nuestro problema de detectar un patr\'on en dos dimensiones se reduce al problema de detectar un patr\'on en una dimensi\'on. Analizemos nuevamente las condiciones que deben cumplirse para el c\'alculo del filtro.\\
+\par El problema se reduce entonces a determinar un conjunto de vectores $v_0,v_1\in L^2(\mathbb{Z}_N)$ tal que $\{R_{2k}v_0\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}v_1\}_{k=0}^{\frac{N}{2}-1}$ constituya una base ortonormal en dicho espacio. Sin embargo, en la secci\'on 1.1.3 se brinda un algoritmo para hallar dichos vectores a partir de un patr\'on de muestra. Por tanto, nuestro problema de detectar un patr\'on en dos dimensiones se reduce al problema de detectar un patr\'on en una dimensi\'on. Se ver\'an ahora nuevamente las condiciones que deben cumplirse para el c\'alculo del filtro.\\
 
-\par La primera condici\'on que deb\'ia cumplir $v$ era la condici\'on de energ\'ia unitaria (vea ecuaci\'on 1.1), mientras que la segunda condici\'on era la de ortogonalidad (ver ecuaci\'on 1.2). La tercera y cuarta condiciones representaban el momento nulo y las ecuaciones de \textit{matching} respectivamente. Deteng\'amonos en estas \'ultimas.
+\par La primera condici\'on que deb\'ia cumplir $v$ era la condici\'on de energ\'ia unitaria (1.1), mientras que la segunda condici\'on era la de ortogonalidad (1.2). La tercera y cuarta condiciones representaban los momentos nulos y las ecuaciones de detecci\'on, respectivamente. Ahora se profundizar\'an en estas \'ultimas.
 
-\par Cuando se proponen las ecuaciones de \textit{matching} en una dimensi\'on son necesarias dos ecuaciones, esto se deb\'ia a que las traslaciones di\'adicas mantienen la paridad del \'indice inicial tomado en la se\~nal de prueba para realizar la convoluci\'on con el filtro, y si el patr\'on estuviese insertado en la se\~nal pero en una posici\'on con paridad distinta, entonces no hubiese sido posible detectarlo. Para resolver este problema se utilizan dos ecuaciones en vez de una. Para el caso de dos dimensiones se puede presentar el mismo problema, sin embargo ya no solo ocurrir\'ia al desplazar el \'indice de las columnas sino tambi\'en el de las filas, por ello ser\'ian necesario utilizar cuatro ecuaciones de \textit{matching} para el proceso de determinaci\'on del filtro.
-\par Al a\~nadir dos nuevas ecuaciones de \textit{matching} el sistema se puede volver incompatible, para evitarlo se eliminan dos ecuaciones m\'as de momento nulo. De esta forma, la tercera condici\'on la constituyen $\frac{N}{2}-4$ ecuaciones de desvanecimiento:
+\par Cuando se proponen las ecuaciones de detecci\'on en una dimensi\'on son necesarias dos ecuaciones, esto se deb\'ia a que las traslaciones di\'adicas mantienen la paridad del \'indice inicial tomado en la se\~nal de prueba para realizar la convoluci\'on con el filtro, y si el patr\'on estuviese insertado en la se\~nal, pero en una posici\'on con paridad distinta, entonces no hubiese sido posible detectarlo. Para resolver este problema se utilizan dos ecuaciones en vez de una. Para el caso de dos dimensiones se puede presentar el mismo problema, sin embargo, ya no solo ocurrir\'ia al desplazar el \'indice de las columnas, sino tambi\'en el de las filas, por ello ser\'ia necesario utilizar cuatro ecuaciones de detecci\'on para el proceso de determinaci\'on del filtro.
+\par Al a\~nadir dos nuevas ecuaciones, el sistema se puede volver incompatible, para evitarlo se eliminan dos ecuaciones m\'as de momentos nulos. De esta forma, la tercera condici\'on la constituyen $\frac{N}{2}-4$ ecuaciones de desvanecimiento:
 \begin{eqnarray}
-\sum_{k=0}^{N-1}v(k)k^b=0,\qquad\forall b=0,1,...,\frac{N}{2}-5\nonumber
+\sum_{k=0}^{N-1}v(k)k^b=0,\qquad\forall b=0,1,\cdots,\frac{N}{2}-5,\nonumber
 \end{eqnarray}
-mientras que la cuarta condici\'on est\'a dada por las siguientes ecuaciones de \textit{matching}:
+mientras que la cuarta condici\'on est\'a dada por las siguientes ecuaciones de detecci\'on:
 \begin{eqnarray}
-&&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v(n_1)v(n_2)m(n_1,n_2)=0\nonumber\\
-&&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v(n_1)v(n_2)m(n_1,n_2+1)=0\nonumber\\
-&&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v(n_1)v(n_2)m(n_1+1,n_2)=0\nonumber\\
-&&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v(n_1)v(n_2)m(n_1+1,n_2+1)=0\nonumber
+&&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v(n_1)v(n_2)m(n_1,n_2)=0,\nonumber\\
+&&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v(n_1)v(n_2)m(n_1,n_2+1)=0,\nonumber\\
+&&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v(n_1)v(n_2)m(n_1+1,n_2)=0,\nonumber\\
+&&\sum_{n_1=0}^{N-1}\sum_{n_2=0}^{N-1}v(n_1)v(n_2)m(n_1+1,n_2+1)=0,\nonumber
 \end{eqnarray}
-donde $m$ representa un patr\'on de $\ell^2(\mathbb{Z}_{N+1}\times\mathbb{Z}_{N+1})$.\\
+donde $m$ representa un patr\'on de $L^2(\mathbb{Z}_{N+1}\times\mathbb{Z}_{N+1})$.\\
 
-\par Como se puede apreciar, para el c\'alculo del filtro es necesario resolver un sistema de ecuaciones no lineales de $N$ variables con $N$ ecuaciones al igual que en el caso de una dimensi\'on. Lo cual constituye una reducci\'on significativa del tiempo te\'orico que se ten\'ia anteriormente.\\
+\par Como se puede apreciar, para el c\'alculo del filtro es necesario resolver un sistema de ecuaciones no lineales de $N$ variables con $N$ ecuaciones, al igual que en el caso de una dimensi\'on. Lo cual constituye una reducci\'on significativa del tiempo te\'orico que se ten\'ia anteriormente.\\
 
-\par Una vez resuelto el sistema aplicando alg\'un m\'etodo de resoluci\'on de sistemas de ecuaciones, se obtienen los valores de $v$ con los cuales se construyen los filtros en dos dimensiones y se aplica la DST\_II. Para ello se realiza la fase de an\'alisis de la imagen, obteniendose 4 nuevas im\'agenes $cA$, $cH$, $cV$ y $cD$ llamadas im\'agen de aproximaci\'on (obtenida con $D(z\ast w_{1,1})$), matriz de detalles horizontales (obtenida con $D(z\ast w_{0,1})$), matriz de detalles verticales (obtenida con $D(z\ast w_{1,0})$) y matriz de detalles (obtenida con $D(z\ast w_{0,0})$) respectivamente.
+\par Una vez resuelto el sistema aplicando alg\'un m\'etodo de resoluci\'on de sistemas de ecuaciones, se obtienen los valores de $v$ con los cuales se construyen los filtros en dos dimensiones y se aplica la DST-II. Para ello, se realiza la fase de an\'alisis de la imagen, obteniendose cuatro nuevas im\'agenes $cA$, $cH$, $cV$ y $cD$ llamadas imagen de aproximaci\'on (obtenida con $D(z\ast w_{1,1})$), matriz de detalles horizontales (obtenida con $D(z\ast w_{0,1})$), matriz de detalles verticales (obtenida con $D(z\ast w_{1,0})$) y matriz de detalles (obtenida con $D(z\ast w_{0,0})$), respectivamente.
 
-\par Al igual que en el caso de una dimensi\'on. El valor que indica la presencia del patr\'on se encuentra en la matriz de detalles $cD$ por lo que aplicando la medida de similitud propuesta en la secci\'on 1.1.3 se selecciona el \'indice m\'as cercano a $1$ como la localizaci\'on del patr\'on en la im\'agen.\\
+\par Al igual que en el caso de una dimensi\'on, el valor que indica la presencia del patr\'on se encuentra en la matriz de detalles $cD$, por lo que, aplicando la medida de similitud propuesta en la secci\'on 1.1.3, se selecciona el \'indice m\'as cercano a $1$ como la localizaci\'on del patr\'on en la imagen.\\
 
-\par Si bien hasta ahora solo se tiene una idea te\'orica del funcionamiento del algoritmo a continuaci\'on se presenta la implementaci\'on del mismo en correspondencia con resultados obtenidos durante los experimentos realizados.
+\par Si bien hasta ahora solo se tiene una idea te\'orica del funcionamiento del algoritmo, a continuaci\'on se presenta la implementaci\'on del mismo en correspondencia con resultados obtenidos durante los experimentos realizados.

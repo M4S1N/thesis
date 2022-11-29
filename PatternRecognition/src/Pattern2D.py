@@ -183,7 +183,7 @@ class Pattern2D:
                         val = 0
                     sim.append(val)
             
-            patches, umbral = [], 0.55
+            patches, umbral = [], 0.4
             maximum, patch = 0, None
             for i in range(cD.shape[0]):
                 for j in range(cD.shape[1]):

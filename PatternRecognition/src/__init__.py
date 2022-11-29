@@ -11,23 +11,23 @@ import sys, os
 
 def main():
     logger.info("---------- New Test ----------")
-    img = np.array(pydicom.dcmread(f"Images/img411.dcm", force=True).pixel_array) / (1<<16)
-    pat = np.array(pydicom.dcmread(f"Images/pat03.dcm", force=True).pixel_array) / (1<<16)
+    img = np.array(pydicom.dcmread(f"Images/img411.dcm", force=True).pixel_array, np.uint16) / (1<<16)
+    pat = np.array(pydicom.dcmread(f"Images/pat03.dcm", force=True).pixel_array, np.uint16) / (1<<16)
     
     solver = Pattern2D(pat)
     solver.load_detect(F=img, plot=True)
     plt.show()
     
-    img = np.array(pydicom.dcmread(f"Images/img410.dcm", force=True).pixel_array) / (1<<16)
-    pat = np.array(pydicom.dcmread(f"Images/pat01.dcm", force=True).pixel_array) / (1<<16)
+    img = np.array(pydicom.dcmread(f"Images/img410.dcm", force=True).pixel_array, np.uint16) / (1<<16)
+    pat = np.array(pydicom.dcmread(f"Images/pat01.dcm", force=True).pixel_array, np.uint16) / (1<<16)
     
     solver = Pattern2D(pat)
     solver.load_detect(F=img, plot=True)
     plt.show()
 
 def main_with_path(imgPath, patPath):
-    img = np.array(pydicom.dcmread(imgPath, force=True).pixel_array) / (1<<16)
-    pat = np.array(pydicom.dcmread(patPath, force=True).pixel_array) / (1<<16)
+    img = np.array(pydicom.dcmread(imgPath, force=True).pixel_array, np.uint16) / (1<<16)
+    pat = np.array(pydicom.dcmread(patPath, force=True).pixel_array, np.uint16) / (1<<16)
     
     solver = Pattern2D(pat)
     solver.load_detect(F=img, plot=True)

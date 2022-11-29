@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.11)  25 NOV 2022 03:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.11)  28 NOV 2022 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,19 +1378,25 @@ Package pdftex.def Info: Graphics/uhlogo.pdf  used on input line 81.
 \openout2 = `FrontMatter/SupervisorOpinion.aux'.
 
 
-(./FrontMatter/SupervisorOpinion.tex) [4
+(./FrontMatter/SupervisorOpinion.tex [4
 
 
 
 ]
+<Graphics/tutorfirma.jpg, id=164, 1084.05pt x 679.53876pt>
+File: Graphics/tutorfirma.jpg Graphic file (type jpg)
+<use Graphics/tutorfirma.jpg>
+Package pdftex.def Info: Graphics/tutorfirma.jpg  used on input line 19.
+(pdftex.def)             Requested size: 108.41135pt x 67.95786pt.
+) [5 <./Graphics/tutorfirma.jpg>]
 \openout2 = `FrontMatter/Abstract.aux'.
 
- (./FrontMatter/Abstract.tex [5
+
+(./FrontMatter/Abstract.tex [6
 
 
 
-])
-[6
+]) [7
 
 ]
 \openout2 = `FrontMatter/Contents.aux'.
@@ -1444,25 +1450,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write7
 \openout7 = `Thesis.toc'.
 
- [7
+ [8
 
 
 
 ] (./Thesis.lof
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-)
+
+[9
+
+])
 \tf@lof=\write8
 \openout8 = `Thesis.lof'.
 
-
-[8
-
-] [9] (./Thesis.lol)
+ [10] (./Thesis.lol)
 \tf@lol=\write9
 \openout9 = `Thesis.lol'.
 
-) [10
+) [11
 
 ]
 \openout2 = `MainMatter/Introduction.aux'.
@@ -1472,11 +1478,15 @@ LaTeX Info: Redefining \% on input line 2.
 
 
 
-]) [2]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+) [2]
 \openout2 = `MainMatter/Background.aux'.
 
-
-(./MainMatter/Background.tex
+ (./MainMatter/Background.tex
 Cap\'{\i }tulo 1.
 [3
 
@@ -1490,12 +1500,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<Graphics/FourierOnda.png, id=307, 488.82625pt x 184.69pt>
+<Graphics/FourierOnda.png, id=325, 488.82625pt x 184.69pt>
 File: Graphics/FourierOnda.png Graphic file (type png)
 <use Graphics/FourierOnda.png>
 Package pdftex.def Info: Graphics/FourierOnda.png  used on input line 35.
 (pdftex.def)             Requested size: 128.0391pt x 82.51227pt.
-<Graphics/FuncionWavelet.png, id=309, 361.35pt x 222.8325pt>
+<Graphics/FuncionWavelet.png, id=327, 361.35pt x 222.8325pt>
 File: Graphics/FuncionWavelet.png Graphic file (type png)
 <use Graphics/FuncionWavelet.png>
 Package pdftex.def Info: Graphics/FuncionWavelet.png  used on input line 36.
@@ -1657,11 +1667,10 @@ r (name{equation.1.1.1}) has been already used, duplicate ignored
                    \relax 
 l.98 \begin{eqnarray}
                      
-Overfull \hbox (7.3646pt too wide) in paragraph at lines 108--109
+Overfull \hbox (17.34537pt too wide) in paragraph at lines 108--109
 []\T1/lmr/m/n/12 Considerese es-ta úl-ti-ma de-fi-ni-ción. Sea $\OML/lmm/m/it/1
-2 u[] \OMS/lmsy/m/n/12 2 \OML/lmm/m/it/12 `[]\OT1/lmr/m/n/12 (\U/msb/m/n/12 Z[]
-\OT1/lmr/m/n/12 )$ \T1/lmr/m/n/12 un vec-tor tal que $\OMS/lmsy/m/n/12 f\OML/lm
-m/m/it/12 R[]u[]\OMS/lmsy/m/n/12 g[]$
+2 u[] \OMS/lmsy/m/n/12 2 \OML/lmm/m/it/12 L[] []$ \T1/lmr/m/n/12 un vec-tor tal
+ que $\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 R[]u[]\OMS/lmsy/m/n/12 g[]$
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
@@ -1685,10 +1694,25 @@ er (name{equation.1.1.1}) has been already used, duplicate ignored
                    \relax 
 l.109 \begin{eqnarray}
                       
+Overfull \hbox (2.85968pt too wide) in paragraph at lines 111--113
+\T1/lmr/m/n/12 entonces, se cum-ple que $\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 R[]
+u[]\OMS/lmsy/m/n/12 g[] [ f\OML/lmm/m/it/12 R[]v[]\OMS/lmsy/m/n/12 g[]$ \T1/lmr
+/m/n/12 es una ba-se wa-ve-let en $\OML/lmm/m/it/12 L[] []$
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
+
+Overfull \hbox (1.9305pt too wide) in paragraph at lines 115--116
+[]\T1/lmr/m/it/12 Suponga que $\OML/lmm/m/it/12 N$ \T1/lmr/m/it/12 es di-vi-si-
+ble por $\OT1/lmr/m/n/12 2[]$\T1/lmr/m/it/12 . Se de-fi-ne $\OML/lmm/m/it/12 D[
+] \OT1/lmr/m/n/12 : \OML/lmm/m/it/12 L[] [] \OMS/lmsy/m/n/12 ! \OML/lmm/m/it/12
+ L[] []$
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
 1}) has been already used, duplicate ignored
 <to be read again> 
@@ -1709,8 +1733,16 @@ er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.116 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
+                      
+Overfull \hbox (1.0819pt too wide) in paragraph at lines 123--124
+[]\T1/lmr/m/it/12 Suponga que $\OML/lmm/m/it/12 N$ \T1/lmr/m/it/12 es di-vi-si-
+ble por $\OT1/lmr/m/n/12 2[]$\T1/lmr/m/it/12 . Se de-fi-ne $\OML/lmm/m/it/12 U[
+] \OT1/lmr/m/n/12 : \OML/lmm/m/it/12 L[] [] \OMS/lmsy/m/n/12 ! \OML/lmm/m/it/12
+ L[] []$
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
+1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.124 \begin{eqnarray}
@@ -1750,8 +1782,8 @@ er (name{equation.1.1.1}) has been already used, duplicate ignored
                    \relax 
 l.135 \begin{eqnarray}
                       
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
  [7]pdfTeX warning (ext4): destination with the same identifier (name{equation.
 1.1.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -1847,8 +1879,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
-LaTeX Info: Redefining \. on input line 168.
-LaTeX Info: Redefining \% on input line 168.
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
 [8]
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
@@ -1878,7 +1910,7 @@ l.180 \begin{eqnarray}
 LaTeX Info: Redefining \. on input line 186.
 LaTeX Info: Redefining \% on input line 186.
  [9]
-<Graphics/Daubechies.png, id=368, 1167.36125pt x 525.965pt>
+<Graphics/Daubechies.png, id=385, 1167.36125pt x 525.965pt>
 File: Graphics/Daubechies.png Graphic file (type png)
 <use Graphics/Daubechies.png>
 Package pdftex.def Info: Graphics/Daubechies.png  used on input line 216.
@@ -1935,7 +1967,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 252.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 252.
-<Graphics/Patron.png, id=383, 538.01pt x 167.62625pt>
+<Graphics/Patron.png, id=400, 538.01pt x 167.62625pt>
 File: Graphics/Patron.png Graphic file (type png)
 <use Graphics/Patron.png>
 Package pdftex.def Info: Graphics/Patron.png  used on input line 260.
@@ -2014,12 +2046,12 @@ er (name{equation.1.1.6}) has been already used, duplicate ignored
                    \relax 
 l.293 \begin{eqnarray}
                       
-<Graphics/Signal.png, id=393, 967.615pt x 235.88126pt>
+<Graphics/Signal.png, id=410, 967.615pt x 235.88126pt>
 File: Graphics/Signal.png Graphic file (type png)
 <use Graphics/Signal.png>
 Package pdftex.def Info: Graphics/Signal.png  used on input line 303.
 (pdftex.def)             Requested size: 387.03915pt x 94.35083pt.
-<Graphics/Similarity.png, id=395, 591.4095pt x 288.47775pt>
+<Graphics/Similarity.png, id=412, 591.4095pt x 288.47775pt>
 File: Graphics/Similarity.png Graphic file (type png)
 <use Graphics/Similarity.png>
 Package pdftex.def Info: Graphics/Similarity.png  used on input line 312.
@@ -2188,40 +2220,35 @@ er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.423 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.2.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.427 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.2.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.427 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.2.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.427 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.2.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.427 \begin{eqnarray}
                       
-LaTeX Info: Redefining \. on input line 433.
-LaTeX Info: Redefining \% on input line 433.
+LaTeX Info: Redefining \. on input line 425.
+LaTeX Info: Redefining \% on input line 425.
  [16pdfTeX warning (ext4): destination with the same identifier (name{equation.
 1.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.433 \end{eqnarray}
+l.425 \end{eqnarray}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.439 \begin{eqnarray}
+l.427 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.427 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.427 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.427 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
@@ -2237,16 +2264,13 @@ er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.439 \begin{eqnarray}
-                      
-Overfull \hbox (1.02243pt too wide) in paragraph at lines 441--443
-\T1/lmr/m/n/12 es un con-jun-to bior-tog-nal con-si-go mis-mo en $\OML/lmm/m/it
-/12 `[]\OT1/lmr/m/n/12 (\U/msb/m/n/12 Z[] \OMS/lmsy/m/n/12 ^^B \U/msb/m/n/12 Z[
-]\OT1/lmr/m/n/12 )$ \T1/lmr/m/n/12 en-ton-ces la ma-triz $\OML/lmm/m/it/12 A\OT
-1/lmr/m/n/12 (\OML/lmm/m/it/12 n[]; n[]\OT1/lmr/m/n/12 )$
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2.
-6}) has been already used, duplicate ignored
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.2.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.439 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.443 \begin{eqnarray}
@@ -2287,17 +2311,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
+
+Overfull \hbox (5.85387pt too wide) in paragraph at lines 11--12
+\OML/lmm/m/it/12 L[]\OT1/lmr/m/n/12 (\U/msb/m/n/12 Z[]\OT1/lmr/m/n/12 )$\T1/lmr
+/m/n/12 , tal que $\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 R[]v[]\OMS/lmsy/m/n/12 g[
+] [ f\OML/lmm/m/it/12 R[]v[]\OMS/lmsy/m/n/12 g[]$ \T1/lmr/m/n/12 cons-ti-tu-ye 
+una ba-se or-to-nor-mal de $\OML/lmm/m/it/12 L[]\OT1/lmr/m/n/12 (\U/msb/m/n/12 
+Z[]\OT1/lmr/m/n/12 )$\T1/lmr/m/n/12 ,
+ []
+
 [18
 
 
 
 ]
-Underfull \hbox (badness 8132) in paragraph at lines 35--37
+Underfull \hbox (badness 3503) in paragraph at lines 35--37
 []\T1/lmr/m/n/12 Sea $\OML/lmm/m/it/12 s \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 u[]
  \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 u[] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 u[] 
-\OT1/lmr/m/n/12 + \OML/lmm/m/it/12 u[]$\T1/lmr/m/n/12 , ha-llan-do fac-tor co-m
-ún $[]\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 m[]\OT1/lmr/m/n/12 )[]$ \T1/lmr/m/n/12 
-y
+\OT1/lmr/m/n/12 + \OML/lmm/m/it/12 u[]$\T1/lmr/m/n/12 , ha-llan-do el fac-tor c
+o-mún $[]\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 m[]\OT1/lmr/m/n/12 )[]$ \T1/lmr/m/n/
+12 y
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2391,7 +2424,7 @@ LaTeX Info: Redefining \% on input line 75.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.75 \par
-          Al a\~nadir dos nuevas ecuaciones de \textit{matching} el sistema ...
+          Al a\~nadir dos nuevas ecuaciones, el sistema se puede volver inco...
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
@@ -2442,19 +2475,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<Graphics/Newton.png, id=473, 462.528pt x 346.896pt>
+<Graphics/Newton.png, id=495, 462.528pt x 346.896pt>
 File: Graphics/Newton.png Graphic file (type png)
 <use Graphics/Newton.png>
 Package pdftex.def Info: Graphics/Newton.png  used on input line 21.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
 [24 <./Graphics/Newton.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<Graphics/CuasiNewton.png, id=479, 462.528pt x 346.896pt>
+<Graphics/CuasiNewton.png, id=504, 462.528pt x 346.896pt>
 File: Graphics/CuasiNewton.png Graphic file (type png)
 <use Graphics/CuasiNewton.png>
 Package pdftex.def Info: Graphics/CuasiNewton.png  used on input line 35.
@@ -2471,7 +2504,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-<Graphics/DescensoGradiente.png, id=485, 462.528pt x 346.896pt>
+<Graphics/DescensoGradiente.png, id=512, 462.528pt x 346.896pt>
 File: Graphics/DescensoGradiente.png Graphic file (type png)
 <use Graphics/DescensoGradiente.png>
 Package pdftex.def Info: Graphics/DescensoGradiente.png  used on input line 49.
@@ -2482,70 +2515,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-<Graphics/RungeKutta.png, id=486, 462.528pt x 346.896pt>
-File: Graphics/RungeKutta.png Graphic file (type png)
-<use Graphics/RungeKutta.png>
-Package pdftex.def Info: Graphics/RungeKutta.png  used on input line 70.
-(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
 [26pdfTeX warning (ext4): destination with the same identifier (name{equation.3
 .1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.77 
+l.67 
       <./Graphics/DescensoGradiente.png>]
-<Graphics/Gekko.png, id=495, 462.528pt x 346.896pt>
+<Graphics/RungeKutta.png, id=522, 462.528pt x 346.896pt>
+File: Graphics/RungeKutta.png Graphic file (type png)
+<use Graphics/RungeKutta.png>
+Package pdftex.def Info: Graphics/RungeKutta.png  used on input line 70.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+<Graphics/Gekko.png, id=529, 462.528pt x 346.896pt>
 File: Graphics/Gekko.png Graphic file (type png)
 <use Graphics/Gekko.png>
 Package pdftex.def Info: Graphics/Gekko.png  used on input line 80.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
- [27 <./Graphics/RungeKutta.png> <./Graphics/Gekko.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-<Graphics/GD_N.png, id=504, 1340.6085pt x 706.0779pt>
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+[27 <./Graphics/RungeKutta.png>]
+<Graphics/GD_N.png, id=538, 1340.6085pt x 706.0779pt>
 File: Graphics/GD_N.png Graphic file (type png)
 <use Graphics/GD_N.png>
 Package pdftex.def Info: Graphics/GD_N.png  used on input line 96.
-(pdftex.def)             Requested size: 130.08731pt x 68.51102pt.
-<Graphics/GD_CN.png, id=505, 1340.6085pt x 706.0779pt>
-File: Graphics/GD_CN.png Graphic file (type png)
-<use Graphics/GD_CN.png>
-Package pdftex.def Info: Graphics/GD_CN.png  used on input line 101.
-(pdftex.def)             Requested size: 130.08731pt x 68.51102pt.
-<Graphics/GD_Gekko.png, id=506, 1340.6085pt x 706.0779pt>
-File: Graphics/GD_Gekko.png Graphic file (type png)
-<use Graphics/GD_Gekko.png>
-Package pdftex.def Info: Graphics/GD_Gekko.png  used on input line 106.
-(pdftex.def)             Requested size: 130.08731pt x 68.51102pt.
-<Graphics/RK_N.png, id=507, 1340.6085pt x 706.0779pt>
+(pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
+<Graphics/RK_N.png, id=539, 1340.6085pt x 706.0779pt>
 File: Graphics/RK_N.png Graphic file (type png)
 <use Graphics/RK_N.png>
-Package pdftex.def Info: Graphics/RK_N.png  used on input line 111.
-(pdftex.def)             Requested size: 130.08731pt x 68.51102pt.
-<Graphics/RK_CN.png, id=508, 1340.6085pt x 706.0779pt>
+Package pdftex.def Info: Graphics/RK_N.png  used on input line 101.
+(pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
+<Graphics/GD_CN.png, id=540, 1340.6085pt x 706.0779pt>
+File: Graphics/GD_CN.png Graphic file (type png)
+<use Graphics/GD_CN.png>
+Package pdftex.def Info: Graphics/GD_CN.png  used on input line 106.
+(pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
+<Graphics/RK_CN.png, id=541, 1340.6085pt x 706.0779pt>
 File: Graphics/RK_CN.png Graphic file (type png)
 <use Graphics/RK_CN.png>
-Package pdftex.def Info: Graphics/RK_CN.png  used on input line 116.
-(pdftex.def)             Requested size: 130.08731pt x 68.51102pt.
-<Graphics/RK_Gekko.png, id=509, 1340.6085pt x 706.0779pt>
+Package pdftex.def Info: Graphics/RK_CN.png  used on input line 111.
+(pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
+<Graphics/GD_Gekko.png, id=542, 1340.6085pt x 706.0779pt>
+File: Graphics/GD_Gekko.png Graphic file (type png)
+<use Graphics/GD_Gekko.png>
+Package pdftex.def Info: Graphics/GD_Gekko.png  used on input line 116.
+(pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
+<Graphics/RK_Gekko.png, id=543, 1340.6085pt x 706.0779pt>
 File: Graphics/RK_Gekko.png Graphic file (type png)
 <use Graphics/RK_Gekko.png>
 Package pdftex.def Info: Graphics/RK_Gekko.png  used on input line 121.
-(pdftex.def)             Requested size: 130.08731pt x 68.51102pt.
+(pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
@@ -2556,81 +2594,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
-[28 <./Graphics/GD_N.png> <./Graphics/GD_CN.png> <./Graphics/GD_Gekko.png> <./G
-raphics/RK_N.png> <./Graphics/RK_CN.png> <./Graphics/RK_Gekko.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 133.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 33.
-
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
+ [28 <./Graphics/Gekko.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+[29 <./Graphics/GD_N.png> <./Graphics/RK_N.png> <./Graphics/GD_CN.png> <./Graph
+ics/RK_CN.png> <./Graphics/GD_Gekko.png> <./Graphics/RK_Gekko.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
-LaTeX Info: Redefining \. on input line 165.
-LaTeX Info: Redefining \% on input line 165.
-[29pdfTeX warning (ext4): destination with the same identifier (name{equation.3
-.2.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.165 
-      pdfTeX warning (ext4): destination with the same identifier (name{equatio
-n.3.2.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.165 
-      ]
-<Graphics/patternDetected1D.png, id=540, 725.71124pt x 797.98125pt>
+<Graphics/patternDetected1D.png, id=572, 725.71124pt x 797.98125pt>
 File: Graphics/patternDetected1D.png Graphic file (type png)
 <use Graphics/patternDetected1D.png>
 Package pdftex.def Info: Graphics/patternDetected1D.png  used on input line 170
 .
 (pdftex.def)             Requested size: 142.26057pt x 128.03271pt.
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.
-1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.175 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.175 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.175 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.175 \begin{eqnarray}
-                      
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-<Graphics/PrecRec1D.png, id=541, 462.528pt x 346.896pt>
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+[30pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+.2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.184 \par C
+            omo un segundo experimento, se generaron $676$ casos de prueba c...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.184 \par C
+            omo un segundo experimento, se generaron $676$ casos de prueba c...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.184 \par C
+            omo un segundo experimento, se generaron $676$ casos de prueba c...
+]
+<Graphics/PrecRec1D.png, id=579, 462.528pt x 346.896pt>
 File: Graphics/PrecRec1D.png Graphic file (type png)
 <use Graphics/PrecRec1D.png>
 Package pdftex.def Info: Graphics/PrecRec1D.png  used on input line 188.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-LaTeX Info: Redefining \. on input line 190.
-LaTeX Info: Redefining \% on input line 190.
-[30 <./Graphics/patternDetected1D.png>]
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
+ [31 <./Graphics/patternDetected1D.png> <./Graphics/PrecRec1D.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
@@ -2640,48 +2671,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-LaTeX Info: Redefining \. on input line 199.
-LaTeX Info: Redefining \% on input line 199.
-[31 <./Graphics/PrecRec1D.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-
+LaTeX Info: Redefining \. on input line 205.
+LaTeX Info: Redefining \% on input line 205.
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-LaTeX Info: Redefining \. on input line 209.
-LaTeX Info: Redefining \% on input line 209.
-[32]
+
 Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-
+LaTeX Info: Redefining \. on input line 219.
+LaTeX Info: Redefining \% on input line 219.
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
-<Graphics/cWordList.png, id=563, 1340.6085pt x 706.0779pt>
+<Graphics/cWordList.png, id=607, 1340.6085pt x 706.0779pt>
 File: Graphics/cWordList.png Graphic file (type png)
 <use Graphics/cWordList.png>
 Package pdftex.def Info: Graphics/cWordList.png  used on input line 225.
 (pdftex.def)             Requested size: 268.11694pt x 141.21307pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Info: Redefining \. on input line 249.
-LaTeX Info: Redefining \% on input line 249.
-[33pdfTeX warning (ext4): destination with the same identifier (name{equation.3
-.3.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.249 \begin{eqnarray}
-                      ]pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.3.3.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.232 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.232 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.232 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.232 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.249 \begin{eqnarray}
@@ -2720,8 +2760,11 @@ er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.253 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.1}) has been already used, duplicate ignored
+                      
+LaTeX Info: Redefining \. on input line 255.
+LaTeX Info: Redefining \% on input line 255.
+ [34 <./Graphics/cWordList.png>]pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.257 \begin{eqnarray}
@@ -2765,60 +2808,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--267
 
  []
 
-<Graphics/CDetect.png, id=572, 462.528pt x 346.896pt>
+<Graphics/CDetect.png, id=613, 462.528pt x 346.896pt>
 File: Graphics/CDetect.png Graphic file (type png)
 <use Graphics/CDetect.png>
-Package pdftex.def Info: Graphics/CDetect.png  used on input line 272.
-(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
-
-Overfull \hbox (28.90686pt too wide) in paragraph at lines 272--273
- [] 
- []
-
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
-[34 <./Graphics/cWordList.png>]
+Package pdftex.def Info: Graphics/CDetect.png  used on input line 270.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
+[35 <./Graphics/CDetect.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-LaTeX Info: Redefining \. on input line 280.
-LaTeX Info: Redefining \% on input line 280.
-[35 <./Graphics/CDetect.png>]
-<Graphics/MamografiaDetect.png, id=584, 462.528pt x 346.896pt>
+<Graphics/MamografiaDetect.png, id=622, 462.528pt x 346.896pt>
 File: Graphics/MamografiaDetect.png Graphic file (type png)
 <use Graphics/MamografiaDetect.png>
 Package pdftex.def Info: Graphics/MamografiaDetect.png  used on input line 283.
 
-(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+LaTeX Info: Redefining \. on input line 289.
+LaTeX Info: Redefining \% on input line 289.
+[36 <./Graphics/MamografiaDetect.png>]
+<Graphics/MamografiaDetectPiece.png, id=629, 1340.6085pt x 706.0779pt>
+File: Graphics/MamografiaDetectPiece.png Graphic file (type png)
+<use Graphics/MamografiaDetectPiece.png>
+Package pdftex.def Info: Graphics/MamografiaDetectPiece.png  used on input line
+ 292.
+(pdftex.def)             Requested size: 429.0035pt x 225.94954pt.
+<Graphics/MamografiaDetectFail.png, id=631, 1340.6085pt x 706.0779pt>
+File: Graphics/MamografiaDetectFail.png Graphic file (type png)
+<use Graphics/MamografiaDetectFail.png>
+Package pdftex.def Info: Graphics/MamografiaDetectFail.png  used on input line 
+301.
+(pdftex.def)             Requested size: 429.0035pt x 225.94954pt.
 
-Overfull \hbox (28.90686pt too wide) in paragraph at lines 283--284
- [] 
- []
 
-<Graphics/PrecRec2D.png, id=586, 462.528pt x 346.896pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Graphics/PrecRec2D.png, id=633, 1340.6085pt x 706.0779pt>
 File: Graphics/PrecRec2D.png Graphic file (type png)
 <use Graphics/PrecRec2D.png>
-Package pdftex.def Info: Graphics/PrecRec2D.png  used on input line 292.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+Package pdftex.def Info: Graphics/PrecRec2D.png  used on input line 310.
+(pdftex.def)             Requested size: 335.1513pt x 176.51903pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
-LaTeX Info: Redefining \. on input line 298.
-LaTeX Info: Redefining \% on input line 298.
-[36 <./Graphics/MamografiaDetect.png>])
+LaTeX Info: Redefining \. on input line 316.
+LaTeX Info: Redefining \% on input line 316.
+[37 <./Graphics/MamografiaDetectPiece.png>])
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
- [37 <./Graphics/PrecRec2D.png>]
+ [38 <./Graphics/MamografiaDetectFail.png> <./Graphics/PrecRec2D.png>]
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [39]
 \openout2 = `BackMatter/Conclusions.aux'.
 
-
-(./BackMatter/Conclusions.tex) [38
+ (./BackMatter/Conclusions.tex)
+[40
 
 
 
@@ -2826,7 +2878,7 @@ LaTeX Info: Redefining \% on input line 94.
 ]
 \openout2 = `BackMatter/Recomendations.aux'.
 
- (./BackMatter/Recomendations.tex) [39
+ (./BackMatter/Recomendations.tex) [41
 
 
 
@@ -2834,65 +2886,64 @@ LaTeX Info: Redefining \% on input line 94.
 ]
 \openout2 = `BackMatter/Bibliography.aux'.
 
+ (./BackMatter/Bibliography.tex
+[42
 
-(./BackMatter/Bibliography.tex [40
 
 
-
-]) [41]
+]) [43]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
  (./Thesis.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
-
-(./FrontMatter/Dedication.aux) (./FrontMatter/Thanks.aux)
-(./FrontMatter/SupervisorOpinion.aux) (./FrontMatter/Abstract.aux)
-(./FrontMatter/Contents.aux) (./MainMatter/Introduction.aux)
-(./MainMatter/Background.aux) (./MainMatter/Proposal.aux)
-(./MainMatter/Implementation.aux) (./BackMatter/Conclusions.aux)
-(./BackMatter/Recomendations.aux) (./BackMatter/Bibliography.aux))
+ (./FrontMatter/Dedication.aux)
+(./FrontMatter/Thanks.aux) (./FrontMatter/SupervisorOpinion.aux)
+(./FrontMatter/Abstract.aux) (./FrontMatter/Contents.aux)
+(./MainMatter/Introduction.aux) (./MainMatter/Background.aux)
+(./MainMatter/Proposal.aux) (./MainMatter/Implementation.aux)
+(./BackMatter/Conclusions.aux) (./BackMatter/Recomendations.aux)
+(./BackMatter/Bibliography.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 27C13D025C80437F13C67441FD31E496;1754.
+(rerunfilecheck)             Checksum: A55EB62422FF9FA039BC0C3ADD737B0C;1729.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32791 strings out of 481239
- 599310 string characters out of 5920377
- 1389486 words of memory out of 5000000
- 47204 multiletter control sequences out of 15000+600000
- 650302 words of font info for 102 fonts, out of 8000000 for 9000
+ 32860 strings out of 481239
+ 600870 string characters out of 5920377
+ 1389128 words of memory out of 5000000
+ 47261 multiletter control sequences out of 15000+600000
+ 622969 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,13n,106p,1452b,2706s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,13n,106p,1494b,2706s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
-x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-ncntrsbk/uncb8a.pfb>
-Output written on Thesis.pdf (51 pages, 1498814 bytes).
+f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+tt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
+Output written on Thesis.pdf (54 pages, 1927096 bytes).
 PDF statistics:
- 764 PDF objects out of 1000 (max. 8388607)
- 615 compressed objects within 7 object streams
- 161 named destinations out of 1000 (max. 500000)
- 429 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 852 PDF objects out of 1000 (max. 8388607)
+ 696 compressed objects within 7 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 444 words of extra memory for PDF output out of 10000 (max. 10000000)
 
