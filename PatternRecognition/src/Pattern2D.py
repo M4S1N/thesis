@@ -11,7 +11,8 @@ import pywt
 
 class Pattern2D:
     
-    def __init__(self, pattern):
+    def __init__(self, pattern, umbral=0.4):
+        self.umbral = umbral
         pattern = np.array(pattern)
         self.M = pattern
         self.N1 = pattern.shape[0]+pattern.shape[0]%2-2
@@ -183,7 +184,7 @@ class Pattern2D:
                         val = 0
                     sim.append(val)
             
-            patches, umbral = [], 0.4
+            patches, umbral = [], self.umbral
             maximum, patch = 0, None
             for i in range(cD.shape[0]):
                 for j in range(cD.shape[1]):
