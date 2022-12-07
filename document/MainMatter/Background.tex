@@ -24,7 +24,7 @@
 
 \par En 1984, Jean Morlet [\cite{21}] en su intento de ayudar a los ge\'ologos franceses para encontrar herramientas m\'as efectivas de localizaci\'on de petr\'oleo, desarroll\'o una forma de analizar las se\~nales s\'ismicas para crear componentes que estuviesen bien localizadas en el espacio, llam\'andolas onditas, que m\'as tarde ser\'ian conocidas como las wavelets de Morlet.
 
-\par Hacia 1986 y 1987, la demostraci\'on de que la teor\'ia wavelets aparece impl\'icita en el an\'alisis multirresoluci\'on por parte de Stéphane Mallat en 1986 y el descubrimiento en 1987 de Ingrid Daubechies de una nueva clase de wavelet que no solo era ortogonal si no que pod\'ia ser implementada usando ideas de filtrado digital simple, provocaron el detonante en la revoluci\'on wavelet [\textcolor{cyan}{\cite{7}}].
+\par Hacia 1986 y 1987, la demostraci\'on de que la teor\'ia wavelets aparece impl\'icita en el an\'alisis multirresoluci\'on por parte de Stéphane Mallat en 1986 y el descubrimiento en 1987 de Ingrid Daubechies de una nueva clase de wavelet que no solo era ortogonal sino que pod\'ia ser implementada usando ideas de filtrado digital simple, provocaron el detonante en la revoluci\'on wavelet [\textcolor{cyan}{\cite{7}}].
 
 \subsection{Definiciones}
 
@@ -47,14 +47,14 @@ donde $a$ y $b$ son reales que indican la escala y el desplazamiento, respectiva
 \label{wav-continua}
 \end{definition}
 
-\par Este conjunto de funciones est\'an definidas en todo $\mathbb{R}$, por lo que representan funciones continuas. Aunque esta forma de expresar las definici\'on de funciones wavelets es muy \'util para el an\'alisis, fundamentalmente te\'orico, de se\~nales en investigaciones cient\'ificas, puede presentar un problema para la codificaci\'on de las mismas en campos como la ingenier\'ia y las ciencias computacionales. Por ello, se brinda una definici\'on discreta en $L^2\left(\mathbb{Z}_N\right)$ m\'as tratable para equipos de c\'omputo y ser\'a la que se utilizar\'a en lo adelante.\\
+\par Este conjunto de funciones est\'an definidas en todo $\mathbb{R}$, por lo que representan funciones continuas, para los intervalos en los cuales se definen. Aunque esta forma de expresar las definici\'on de funciones wavelets es muy \'util para el an\'alisis, fundamentalmente te\'orico, de se\~nales en investigaciones cient\'ificas, puede presentar un problema para la codificaci\'on de las mismas en campos como la ingenier\'ia y las ciencias computacionales. Por ello, se define el espacio $\ell^2\left(\mathbb{Z}_N\right)=\{z(i)|0\leq i \leq N-1\}$ donde $z$ representa un vector de dimensi\'on $N$, en el cual se brindar\'a una definici\'on discreta, m\'as tratable para equipos de c\'omputo y ser\'a la que se utilizar\'a en lo adelante.\\
 
 \begin{definition}
-Se define la funci\'on wavelet discreta $\Psi(t)\in L^2(\mathbb{Z}_N)$ tal que la familia de funciones:
+Se define la funci\'on wavelet discreta $\Psi(t)\in \ell^2(\mathbb{Z}_N)$ tal que la familia de funciones:
 \begin{eqnarray}
 \Psi_{j,k}(t)&:=&2^{\frac{j}{2}}\Psi(2^jt-k),\nonumber
 \end{eqnarray}
-con $j$ y $k$ enteros, es una base ortonormal en el espacio $L^2(\mathbb{Z}_N)$.
+con $j$ y $k$ enteros, es una base ortonormal en el espacio $\ell^2(\mathbb{Z}_N)$.
 \label{wav-discreta}
 \end{definition}
 
@@ -67,21 +67,28 @@ b&=&k2^{-j}\qquad\mbox{con $j,k\in \mathbb{Z}$}.\nonumber
 \par A la funci\'on $\Psi$ se le llama entonces wavelet madre. En su forma discreta, cada elemento de la base wavelet constituye un vector de dimensi\'on $N$. Se ver\'a entonces c\'omo es posible obtener esta base y, por tanto, wavelet madre. A continuaci\'on se presentan un conjunto de definiciones a fin de proporcionar una notaci\'on y un algoritmo para obtener dichas wavelets.\\
 
 \begin{definition}
-Se define la reflexi\'on conjugada $\tilde{w}$ de un vector $w\in L^2\left(\mathbb{Z}_N\right)$ como:
+Se define la transformada discreta de Fourier del vector $w\in \ell^2\left(\mathbb{Z}_N\right)$ como:
+\begin{eqnarray}
+\hat{w}(m)=\sum_{n=0}^{N-1}w(n)e^{\frac{-2\pi imn}{N}},\quad\forall\,m\nonumber
+\end{eqnarray}
+\end{definition}
+
+\begin{definition}
+Se define la reflexi\'on conjugada $\tilde{w}$ de un vector $w\in \ell^2\left(\mathbb{Z}_N\right)$ como:
 \begin{eqnarray}
 \tilde{w}(n)=\overline{w(-n)}=\overline{w(N-n)}.\nonumber
 \end{eqnarray}
 \end{definition}
 
 \begin{definition}
-Se define la convoluci\'on $\ast$ entre dos vectores $w,z\in L^2(\mathbb{Z}_N)$ como:
+Se define la convoluci\'on $\ast$ entre dos vectores $w,z\in \ell^2(\mathbb{Z}_N)$ como:
 \begin{eqnarray}
 (z \ast w )(n) = \sum_{i=0}^{N-1}w(i)z(n-i).\nonumber
 \end{eqnarray}
 \end{definition}
 
 \begin{definition}
-Sea $w\in L^2(\mathbb{Z}_N)$ un vector y $k\in\mathbb{Z}$, se define $R_kw$ como la traslaci\'on de $w$ por $k$ dada por:
+Sea $w\in \ell^2(\mathbb{Z}_N)$ un vector y $k\in\mathbb{Z}$, se define $R_kw$ como la traslaci\'on de $w$ por $k$ dada por:
 \begin{eqnarray}
 R_kw(n)=w(n-k).\nonumber
 \end{eqnarray}
@@ -90,9 +97,9 @@ R_kw(n)=w(n-k).\nonumber
 \subsection{Banco de Filtros}
 
 \begin{definition}
-Sea $N$ divisible por $2^p$. Se define un banco de filtros wavelet de $p$ escalas seg\'un dos sucesiones de vectores $u_1$, $u_2$, ..., $u_p$ y $v_1$, $v_2$, ..., $v_p$, tales que:
+Sea $N$ divisible por $2^p$. Se define un banco de filtros wavelet de $p$ escalas a partir de dos sucesiones de vectores $u_1$, $u_2$, ..., $u_p$ y $v_1$, $v_2$, ..., $v_p$, tales que:
 \begin{eqnarray}
-u_j, v_j \in L^2 \left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right),~\forall\,j=1,2,\cdots,p,\nonumber
+u_j, v_j \in \ell^2 \left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right),~\forall\,j=1,2,\cdots,p,\nonumber
 \end{eqnarray}
 y tales que la matriz del sistema:
 \begin{eqnarray}
@@ -105,14 +112,14 @@ es unitaria $\forall\,m=0,1,\cdots,\frac{N}{2^j}-1,\,j=1,2,\cdots,p$.
 \label{banco-filtro}
 \end{definition}
 
-\par Considerese esta \'ultima definici\'on. Sea $u_j\in L^2\left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right)$ un vector tal que $\{R_{2k}u_j\}_{k=0}^{\frac{N}{2^j}-1}$ constituye una base ortonormal. Si se define $v_j\in L^2\left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right)$ tal que:
+\par Consid\'erese esta \'ultima definici\'on. Sea $u_j\in \ell^2\left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right)$ un vector tal que $\{R_{2k}u_j\}_{k=0}^{\frac{N}{2^j}-1}$ constituye una base ortonormal. Si se define $v_j\in \ell^2\left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right)$ tal que:
 \begin{eqnarray}
 v_j(n)=(-1)^{n-1}\overline{u_j(1-n)},\nonumber
 \end{eqnarray}
-entonces, se cumple que $\{R_{2k}u_j\}_{k=0}^{\frac{N}{2^j}-1} \cup \{R_{2k}v_j\}_{k=0}^{\frac{N}{2^j}-1}$ es una base wavelet en $L^2\left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right)$ y, por tanto, la matriz del sistema $A_j(m)$ es unitaria para toda $m=0,1,\cdots,\frac{N}{2^j}-1$ (ver demostraci\'on en [\textcolor{cyan}{\cite{8}}]).\\
+entonces, se cumple que $\{R_{2k}u_j\}_{k=0}^{\frac{N}{2^j}-1} \cup \{R_{2k}v_j\}_{k=0}^{\frac{N}{2^j}-1}$ es una base wavelet en $\ell^2\left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right)$ y, por tanto, la matriz del sistema $A_j(m)$ es unitaria para toda $m=0,1,\cdots,\frac{N}{2^j}-1$ (ver demostraci\'on en [\textcolor{cyan}{\cite{8}}]).\\
 
 \begin{definition}
-Suponga que $N$ es divisible por $2^p$. Se define $D^p:L^2\left(\mathbb{Z}_N\right)\rightarrow L^2\left(\mathbb{Z}_{\frac{N}{2^p}}\right)$ para $z\in L^2\left(\mathbb{Z}_N\right)$ como:
+Suponga que $N$ es divisible por $2^p$. Se define $D^p:\ell^2\left(\mathbb{Z}_N\right)\rightarrow \ell^2\left(\mathbb{Z}_{\frac{N}{2^p}}\right)$ para $z\in \ell^2\left(\mathbb{Z}_N\right)$ como:
 \begin{eqnarray}
 D^p(z)(n)=z(2^pn),\qquad\mbox{para $n=0,1,\cdots,M-1$.}\nonumber
 \end{eqnarray}
@@ -120,7 +127,7 @@ Al operador $D$ se le denomina operador de submuestreo.
 \end{definition}
 
 \begin{definition}
-Suponga que $N$ es divisible por $2^p$. Se define $U^p: L^2\left(\mathbb{Z}_{\frac{N}{2^p}}\right)\rightarrow L^2\left(\mathbb{Z}_N\right)$ para $z\in L^2\left(\mathbb{Z}_{\frac{N}{2^p}}\right)$ como:
+Suponga que $N$ es divisible por $2^p$. Se define $U^p: \ell^2\left(\mathbb{Z}_{\frac{N}{2^p}}\right)\rightarrow \ell^2\left(\mathbb{Z}_N\right)$ para $z\in \ell^2\left(\mathbb{Z}_{\frac{N}{2^p}}\right)$ como:
 \begin{eqnarray}
 U^p(z)(n)=\left\{\begin{array}{ll}
 z\left(\frac{n}{2^p}\right)&\quad\mbox{si $n$ es divisible por $2^p$}\\
@@ -131,26 +138,26 @@ Al operador $U$ se le denomina operador de sobremuestreo.
 \end{definition}
 
 \begin{definition}
-Suponga que $N$ es divisible por $2^p$. Sean $u_j,v_j\in L^2\left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right)$. Se definen $f_{\ell},g_{\ell}\in L^2\left(\mathbb{Z}_N\right)$ como:
+Suponga que $N$ es divisible por $2^p$. Sean $u_j,v_j\in \ell^2\left(\mathbb{Z}_{\frac{N}{2^{j-1}}}\right)$. Se definen $f_j,g_j\in \ell^2\left(\mathbb{Z}_N\right)$ como:
 \begin{eqnarray}
-f_{\ell}&=&g_{\ell-1}\ast U^{\ell-1}(v_{\ell}),\nonumber\\
-g_{\ell}&=&g_{\ell-1}\ast U^{\ell-1}(u_{\ell}),\nonumber
+f_j&=&g_{j-1}\ast U^{j-1}(v_j),\nonumber\\
+g_j&=&g_{j-1}\ast U^{j-1}(u_j),\nonumber
 \end{eqnarray}
-para toda $\ell=2,3,\cdots,p$, donde $f_1=v_1$ y $g_1=u_1$.
+para toda $j=2,3,\cdots,p$, donde $f_1=v_1$ y $g_1=u_1$.
 \end{definition}
 
-\par Considerese ahora que los vectores $u_{\ell}$ y $v_{\ell}$ de la definici\'on anterior son tomados de tal forma que la matriz del sistema $A_{\ell}(n)$ es unitaria para toda $n=0,1,\cdots,\frac{N}{2^{\ell}}-1$. Entonces, se cumple que:
+\par Consid\'erese ahora que los vectores $u_j$ y $v_j$ de la definici\'on anterior son tomados de tal forma que la matriz del sistema $A_j(n)$ es unitaria para toda $n=0,1,\cdots,\frac{N}{2^j}-1$. Entonces, se cumple que:
 \begin{eqnarray}
-\{R_{2^{\ell}k}f_{\ell}\}_{k=0}^{\frac{N}{2^{\ell}}-1}\cup\{R_{2^{\ell}k}g_{\ell}\}_{k=0}^{\frac{N}{2^{\ell}}-1},\nonumber
+\{R_{2^jk}f_j\}_{k=0}^{\frac{N}{2^j}-1}\cup\{R_{2^jk}g_j\}_{k=0}^{\frac{N}{2^j}-1},\nonumber
 \end{eqnarray}
-constituye una base ortonormal con $\frac{N}{2^{\ell-1}}$ elementos (ver demostraci\'on en [\textcolor{cyan}{\cite{8}}]).
+constituye una base ortonormal con $\frac{N}{2^{j-1}}$ elementos (ver demostraci\'on en [\textcolor{cyan}{\cite{8}}]).
 
-\par Como consecuencia del resultado anterior, si se desarrolla el t\'ermino $g_{\ell-1}$ en cada nueva ecuaci\'on se obtiene la siguiente base de $L^2\left(\mathbb{Z}_N\right)$:
+\par Como consecuencia del resultado anterior, si se desarrolla el t\'ermino $g_{j-1}$ en cada nueva ecuaci\'on se obtiene la siguiente base de $\ell^2\left(\mathbb{Z}_N\right)$:
 \begin{eqnarray}
 \{R_{2k}f_1\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{4k}f_2\}_{k=0}^{\frac{N}{4}-1}\cup ...\cup\{R_{2^{p}k}f_{p}\}_{k=0}^{\frac{N}{2^{p}}-1}\cup\{R_{2^{p}k}g_{p}\}_{k=0}^{\frac{N}{2^{p}}-1}.\nonumber
 \end{eqnarray}
 
-\par A partir de la definici\'on~\ref{wav-discreta}, se cumple que, si se toman $\Psi_{j,k}=R_{2^jk}f_j$ y $\Phi_{j,k}=R_{2^jk}g_j$, entonces $f_1$ y $g_1$ constituyen la wavelet madre y la wavelet padre, respectivamente.\\
+\par A partir de la definici\'on~\ref{wav-discreta}, se cumple que, si se toman $\Psi_{j,k}=R_{2^jk}f_j$ y\linebreak $\Phi_{j,k}=R_{2^jk}g_j$, entonces $f_1$ y $g_1$ constituyen la wavelet madre y la wavelet padre, respectivamente.\\
 
 \par Durante el proceso de an\'alisis de una se\~nal se aplica la llamada Transformada Wavelet Discreta que consiste en determinar los coeficientes wavelets de la se\~nal respecto a la base representada por el banco de filtros. Estos coeficientes coinciden con los valores de $z\ast\tilde{v}$ y $z\ast\tilde{u}$, m\'as a\'un, se cumple que:
 \begin{eqnarray}
@@ -158,12 +165,12 @@ v\ast U(D(z\ast\tilde{v}))+u\ast U(D(z\ast\tilde{u}))=z,\nonumber
 \end{eqnarray}
 representa todo el proceso de an\'alisis y s\'intesis de una se\~nal $z$ usando el banco de filtros obtenido a partir de $u$ y $v$.\\
 
-\par Como se ha podido apreciar hasta el momento, encontrar una wavelet en $L^2\left(\mathbb{Z}_N\right)$ se reduce a encontrar un banco de filtros en $L^2\left(\mathbb{Z}_N\right)$. As\'i, por ejemplo, si se toman:
+\par Como se ha podido apreciar hasta el momento, encontrar una wavelet en $\ell^2\left(\mathbb{Z}_N\right)$ se reduce a encontrar un banco de filtros en $\ell^2\left(\mathbb{Z}_N\right)$. As\'i, por ejemplo, si se toman:
 \begin{eqnarray}
 u&=&\left(\frac{1}{\sqrt{2}},\,\frac{1}{\sqrt{2}},0,...,0\right),\nonumber\\
 v&=&\left(\frac{1}{\sqrt{2}},\,-\frac{1}{\sqrt{2}},0,...,0\right),\nonumber
 \end{eqnarray}
-se cumple que $\{R_{2k}v\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}u\}_{k=0}^{\frac{N}{2}-1}$ es una base ortonormal en $L^2\left(\mathbb{Z}_N\right)$ y, por tanto, la matriz del sistema es unitaria, luego es posible afirmar que se obtiene un banco de filtros a partir de $u$ y $v$. La wavelet que se obtiene a partir de este, es conocida como wavelet de Haar.\\
+se cumple que $\{R_{2k}v\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}u\}_{k=0}^{\frac{N}{2}-1}$ es una base ortonormal en $\ell^2\left(\mathbb{Z}_N\right)$ y, por tanto, la matriz del sistema es unitaria, luego es posible afirmar que se obtiene un banco de filtros a partir de $u$ y $v$. La wavelet que se obtiene a partir de este, es conocida como wavelet de Haar.\\
 
 \par Hasta el momento se ha explicado qu\'e son las wavelets, se conocen las ventajas que posee en el an\'alisis de se\~nales respecto a las series de Fourier y que cada wavelet se reduce a encontrar un banco de filtros. Ahora el an\'alisis se enfocar\'a en este \'ultimo aspecto; la diferencia que existe entre las wavelets est\'a dada por los valores de los vectores $u$ y $v$ que son denominados, generalmente, como filtro de reconstrucci\'on de paso bajo y filtro de reconstrucci\'on de paso alto, respectivamente. Los valores de estos filtros son calculados en dependencia de la finalidad para la cual se haya creado la wavelet, esto quiere decir que, si se deseara crear una wavelet capaz de reconocer un patr\'on espec\'ifico en una se\~nal, ser\'ia necesario crear un banco de filtros basado en los valores de dicho patr\'on. Para ello, existen unas wavelets conocidas con el nombre de shapelets.\\
 
@@ -173,7 +180,7 @@ se cumple que $\{R_{2k}v\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}u\}_{k=0}^{\frac{N}{
 
 \par El algoritmo propuesto para determinar el banco de filtros de la shapelet tiene gran similitud al usado para determinar los filtros de la wavelet de Daubechies. Por ello, se muestra en una primera instancia el algoritmo para encontrarlos en caso de esta \'ultima.
 
-\par El c\'alculo de un banco de filtros puede ser reducido a la determinaci\'on de un \'unico vector $v$ conocido como filtro de paso alto. A partir del cual, de cumplir con las condiciones consideradas en la definici\'on 1.6, es posible determinar el valor del filtro pasa bajo $u$ y, por tanto, el banco de filtros.
+\par El c\'alculo de un banco de filtros puede ser reducido a la determinaci\'on de un \'unico vector $v$ conocido como filtro de paso alto. A partir del cual, de cumplir con las condiciones consideradas en la definici\'on~\ref{banco-filtro}, es posible determinar el valor del filtro de paso bajo $u$ y, por tanto, el banco de filtros.
 
 \par La primera condici\'on que debe cumplir el vector $v$ en la wavelet de Daubechies es la condici\'on de energ\'ia unitaria, es decir:
 
@@ -198,7 +205,7 @@ se cumple que $\{R_{2k}v\}_{k=0}^{\frac{N}{2}-1}\cup\{R_{2k}u\}_{k=0}^{\frac{N}{
 
 \par Como se puede apreciar, la suma total de las ecuaciones es $N$, donde $N$ debe ser un n\'umero par, que coincide con el n\'umero de variables (componentes del vector $v$). Por lo tanto, se obtiene un sistema al menos compatible determinado y, en el peor caso, compatible con un n\'umero infinito de vectores posibles como candidatos al banco de filtro.
 
-\par Una vez obtenido el valor de $v$, aplicando algunos de los m\'etodos de resoluci\'on de sistemas de ecuaciones conocidos, se determina el vector $u$, a partir de la consideraci\'on dada en la definici\'on 1.6. Se sabe que es posible tomar $v$ a partir de $u$ para que $\{R_{2k}u\}_{k=0}^{\frac{N}{2}-1} \cup \{R_{2k}v\}_{k=0}^{\frac{N}{2}-1}$ constituya una base ortonormal de $L^2(\mathbb{Z}_N)$ de la siguiente forma:
+\par Una vez obtenido el valor de $v$, aplicando algunos de los m\'etodos de resoluci\'on de sistemas de ecuaciones conocidos, se determina el vector $u$, a partir de la consideraci\'on dada en la definici\'on 1.6. Se sabe que es posible tomar $v$ a partir de $u$ para que $\{R_{2k}u\}_{k=0}^{\frac{N}{2}-1} \cup \{R_{2k}v\}_{k=0}^{\frac{N}{2}-1}$ constituya una base ortonormal de $\ell^2(\mathbb{Z}_N)$ de la siguiente forma:
 \begin{eqnarray}
 v(n)=(-1)^{n-1}\overline{u(1-n)},\nonumber
 \end{eqnarray}
@@ -292,9 +299,9 @@ mientras que:
 \par Sea la se\~nal de muestra de la Figura~\ref{signal-1d}, definida para toda $k\in \mathbb{Z}$ tal que $0\leq k \leq 63$:
 \begin{eqnarray}
 z(k)&=&\left\{\begin{array}{ll}
-cos\left(\frac{27\pi i}{8}\right)sen\left(\frac{75\pi i}{8}\right),&\quad\mbox{para $0\leq k \leq 40$}\\
+cos\left(\frac{27\pi k}{8}\right)sen\left(\frac{75\pi k}{8}\right),&\quad\mbox{para $0\leq k \leq 40$}\\
 m(k),&\quad\mbox{para $41 \leq k \leq 49$}\\
-cos\left(\frac{295\pi i}{32}\right)sen\left(\frac{105\pi i}{32}\right),&\quad\mbox{para $50 \leq k \leq 63$}
+cos\left(\frac{295\pi k}{32}\right)sen\left(\frac{105\pi k}{32}\right),&\quad\mbox{para $50 \leq k \leq 63$}
 \end{array}\right.\nonumber
 \end{eqnarray}
 
@@ -305,7 +312,7 @@ cos\left(\frac{295\pi i}{32}\right)sen\left(\frac{105\pi i}{32}\right),&\quad\mb
 \label{signal-1d}
 \end{figure}
 
-y sean $cA$ y $cD$ los vectores de aproximaci\'on y detalles, respectivamente obtenidos a partir de la DST-II. La figura~\ref{similaridad-1d} muestra los valores de estos vectores (naranja) y los valores de la medida de similaridad (azul, con $\alpha=0.1$) aplicada a cada uno de los valores de los vectores $cA$ y $cD$. Como se puede apreciar, para $k=53$ se obtiene un valor significativamente cercano a $1$ en el gr\'afico de similaridad, si se tiene en cuenta que, este valor corresponde al \'indice $k=21$ en el vector de aproximaci\'on $cD$ y, por tanto, a la posici\'on $k=42$ en la se\~nal original, entonces se puede afirmar que el algoritmo detect\'o satisfactoriamente al patr\'on $m$ en la se\~nal de muestra.
+\par Sean $cA$ y $cD$ los vectores de aproximaci\'on y detalles, respectivamente obtenidos a partir de la DST-II. La figura~\ref{similaridad-1d} muestra los valores de estos vectores (naranja) y los valores de la medida de similaridad (azul, con $\alpha=0.1$) aplicada a cada uno de los valores de los vectores $cA$ y $cD$. Como se puede apreciar, para $k=53$ se obtiene un valor significativamente cercano a $1$ en el gr\'afico de similaridad, si se tiene en cuenta que, este valor corresponde al \'indice $k=21$ en el vector de aproximaci\'on $cD$ y, por tanto, a la posici\'on $k=42$ en la se\~nal original, entonces se puede afirmar que el algoritmo detect\'o satisfactoriamente al patr\'on $m$ en la se\~nal de muestra.
 
 \begin{figure}[h]
 \center
@@ -320,35 +327,35 @@ y sean $cA$ y $cD$ los vectores de aproximaci\'on y detalles, respectivamente ob
 
 \par Hasta el momento se dispone de un m\'etodo para identificar un patr\'on dado en una se\~nal de muestra aplicando la transformada shapelet. Dicho m\'etodo funciona de manera efectiva en se\~nales unidimensionales, ?`que pasar\'ia entonces si se agrega una dimensi\'on m\'as? Para poder extender el concepto shapelet a dos dimensiones es necesario adaptar el conjunto de herramientas del cual se dispone en una dimensi\'on a dos dimensiones, tal que sea capaz de obtener similares resultados ya no solo para se\~nales sino tambi\'en para im\'agenes.\\
 
-\par Anteriormente, se dieron un conjunto de definiciones para mostrar un algoritmo que permitiera, a partir de un vector, construir un banco de filtros y, por consiguiente, una base wavelet. Una imagen puede ser representada por un vector en $L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$, donde $L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})=\{z(i,j)|0\leq i \leq N_1-1,\,0\leq j\leq N_2-1\}$, consid\'erese entonces dicho espacio como el punto de partida.
+\par Anteriormente, se dieron un conjunto de definiciones para mostrar un algoritmo que permitiera, a partir de un vector, construir un banco de filtros y, por consiguiente, una base wavelet. Una imagen puede ser representada por un vector en $\ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$, donde $\ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})=\{z(i,j)|0\leq i \leq N_1-1,\,0\leq j\leq N_2-1\}$, consid\'erese entonces dicho espacio como el punto de partida.
 
 \subsection{Definiciones}
 
 \par Las siguientes definiciones fueron extra\'idas de [\textcolor{cyan}{\cite{12}}].\\
 
 \begin{definition}
-Para $z\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ se define $\hat{z}$ como la transformada discreta de Fourier de $z$ tal que:
+Para $z\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ se define $\hat{z}$ como la transformada discreta de Fourier de $z$ tal que:
 \begin{eqnarray}
 \hat{z}(m_1,m_2)&=&\sum_{n_1=0}^{N_1-1}\sum_{n_2=0}^{N_2-1}z(n_1,n_2)e^{\frac{-2\pi im_1n_1}{N_1}}e^{\frac{-2\pi im_2n_2}{N_2}},\qquad\forall\,m_1,m_2.\nonumber
 \end{eqnarray}
 \end{definition}
 
 \begin{definition}
-Para $z\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ se define $\tilde{z}$ como la reflexi\'on conjugada de $z$ tal que:
+Para $z\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ se define $\tilde{z}$ como la reflexi\'on conjugada de $z$ tal que:
 \begin{eqnarray}
 \tilde{z}(m_1,m_2)&=&\overline{z(-m_1,-m_2)}=\overline{z(N_1-m_1,N_2-m_2)},\qquad\forall\,m_1,m_2.\nonumber
 \end{eqnarray}
 \end{definition}
 
 \begin{definition}
-Para todo $w,z\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ se define la convoluci\'on entre ellos como $z\ast w$ tal que:
+Para todo $w,z\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ se define la convoluci\'on entre ellos como $z\ast w$ tal que:
 \begin{eqnarray}
 (z\ast w)(m_1,m_2)&=&\sum_{n_1=0}^{N_1-1}\sum_{n_2=0}^{N_2-1}z(m_1-n_1,m_2-n_2)w(n_1,n_2),\qquad\forall\,m_1,m_2.\nonumber
 \end{eqnarray}
 \end{definition}
 
 \begin{definition}
-Para $z\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ y $k_1,k_2\in\mathbb{Z}$ se define $R_{k_1,k_2}{z}$ como la traslaci\'on de $z$ por $k_1,k_2$ dado por:
+Para $z\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ y $k_1,k_2\in\mathbb{Z}$ se define $R_{k_1,k_2}{z}$ como la traslaci\'on de $z$ por $k_1,k_2$ dado por:
 \begin{eqnarray}
 R_{k_1,k_2}{z}(m_1,m_2)&=&z(m_1-k_1,m_2-k_2),\qquad\forall\,m_1,m_2.\nonumber
 \end{eqnarray}
@@ -357,7 +364,7 @@ R_{k_1,k_2}{z}(m_1,m_2)&=&z(m_1-k_1,m_2-k_2),\qquad\forall\,m_1,m_2.\nonumber
 \subsection{Banco de filtros}
 
 \begin{theorem}
-(Ver demostraci\'on en [\textcolor{cyan}{\cite{12}}]) Sup\'ongase que $M_1,M_2\in\mathbb{N}$, $N_1=2M_1$, $N_2=2M_2$ y $u_1,u_2\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$. Entonces, para todo $0\leq k_1 \leq M_1-1$ y $0\leq k_2 \leq M_2-1$, $\{R_{2k_1,2k_2}u_1\}$ y $\{R_{2k_1,2k_2}u_2\}$ son conjuntos biortonormales si y solo si:
+(Ver demostraci\'on en [\textcolor{cyan}{\cite{12}}]) Sup\'ongase que $M_1,M_2\in\mathbb{N}$, $N_1=2M_1$, $N_2=2M_2$ y $u_1,u_2\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$. Entonces, para todo $0\leq k_1 \leq M_1-1$ y\linebreak $0\leq k_2 \leq M_2-1$, $\{R_{2k_1,2k_2}u_1\}$ y $\{R_{2k_1,2k_2}u_2\}$ son conjuntos biortonormales si y solo si:
 \begin{eqnarray}
 u^1+u^2+u^3+u^4&=&4,\nonumber
 \end{eqnarray}
@@ -371,11 +378,11 @@ u^4&=&\hat{u_1}(n_1+M_1,n_2+M_2)\overline{\hat{u_2}(n_1+M_1,n_2+M_2)}.\nonumber
 \end{theorem}
 
 \begin{theorem}
-(Ver demostraci\'on en [\textcolor{cyan}{\cite{12}}]) Sup\'ongase que $M_1,M_2\in\mathbb{N}$, $N_1=2M_1$, $N_2=2M_2$ y $u_i,v_i\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$, para toda $i=0,1,2,3$. Entonces, para todo $0\leq k_1 \leq M_1-1$ y $0\leq k_2 \leq M_2-1$,
+(Ver demostraci\'on en [\textcolor{cyan}{\cite{12}}]) Sup\'ongase que $M_1,M_2\in\mathbb{N}$, $N_1=2M_1$, $N_2=2M_2$ y $u_i,v_i\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$, para toda $i=0,1,2,3$. Entonces, para todo\linebreak $0\leq k_1 \leq M_1-1$ y $0\leq k_2 \leq M_2-1$,
 \begin{eqnarray}
 \bigcup_{m=0}^{3}\{R_{2k_1,2k_2}u_m\}\mbox{ y }\bigcup_{m=0}^{3}\{R_{2k_1,2k_2}v_m\},\nonumber
 \end{eqnarray}
-son conjuntos biortogonales de $L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ si y solo si:
+son conjuntos biortogonales de $\ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ si y solo si:
 \begin{eqnarray}
 A_u(n_1,n_2)^T\overline{A_v(n_1,n_2)}=\left[\begin{array}{cccc}
 1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&1
@@ -403,9 +410,9 @@ y $A_v(n_1,n_2)$ es la matriz cuya $m-$\'esima columna ($m=0,1,2,3$) es:
 \end{theorem}
 
 \begin{definition}
-Suponga que $M_1,M_2\in\mathbb{N}$, $N_1=2M_1$ y $N_2=2M_2$. Se definen los operadores $$D^l: L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})\rightarrow L^2\left(\mathbb{Z}_{\frac{N_1}{2^l}}\times\mathbb{Z}_{\frac{N_2}{2^l}}\right),$$ de submuestreo y $$U^l: L^2\left(\mathbb{Z}_{\frac{N_1}{2^l}}\times\mathbb{Z}_{\frac{N_2}{2^l}}\right)\rightarrow L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2}),$$ de sobremuestreo como:
+Suponga que $M_1,M_2\in\mathbb{N}$, $N_1=2M_1$ y $N_2=2M_2$. Se definen los operadores $$D^l: \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})\rightarrow \ell^2\left(\mathbb{Z}_{\frac{N_1}{2^l}}\times\mathbb{Z}_{\frac{N_2}{2^l}}\right),$$ de submuestreo y $$U^l: \ell^2\left(\mathbb{Z}_{\frac{N_1}{2^l}}\times\mathbb{Z}_{\frac{N_2}{2^l}}\right)\rightarrow \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2}),$$ de sobremuestreo como:
 \begin{eqnarray}
-D^l(z)(n_1,n_2)=z(2^ln_1,2^ln_2),\qquad\forall\,z\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2}),\nonumber
+D^l(z)(n_1,n_2)=z(2^ln_1,2^ln_2),\qquad\forall\,z\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2}),\nonumber
 \end{eqnarray}
 y
 \begin{eqnarray}
@@ -413,17 +420,17 @@ U^l(z)(n_1,n_2)&=&\left\{\begin{array}{rr}
 z\left(\frac{n_1}{2^l},\frac{n_2}{2^l}\right),&\quad 2^l | n_1,\, 2^l|n_2\\
 0,&\quad\mbox{en otro caso,}
 \end{array}\right.\nonumber\\
-\forall\,z&\in &L^2\left(\mathbb{Z}_{\frac{N_1}{2^l}}\times\mathbb{Z}_{\frac{N_2}{2^l}}\right),\nonumber
+\forall\,z&\in &\ell^2\left(\mathbb{Z}_{\frac{N_1}{2^l}}\times\mathbb{Z}_{\frac{N_2}{2^l}}\right),\nonumber
 \end{eqnarray}
 donde $D^1=D$, $U^1=U$ y $D^l(z)=(D\circ D^{l-1})(z)$, $U^l(z)=(U\circ U^{l-1})(z)$ para $l>1$.
 \end{definition}
 
 \begin{theorem}
-(Ver demostraci\'on en [\textcolor{cyan}{\cite{12}}]) Sup\'ongase que $M_1,M_2\in\mathbb{N}$, $N_1=2M_1$, $N_2=2M_2$ y $u_0,u_1,u_2,u_3,s_0,s_1,s_2,s_3\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$. Sea la matriz $A(n_1,n_2)$ definida como en el Teorema 1.2, entonces se tiene una reconstrucci\'on perfecta:
+(Ver demostraci\'on en [\textcolor{cyan}{\cite{12}}]) Sup\'ongase que $M_1,M_2\in\mathbb{N}$, $N_1=2M_1$, $N_2=2M_2$ y $u_0,u_1,u_2,u_3,s_0,s_1,s_2,s_3\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$. Sea la matriz $A(n_1,n_2)$ definida como en el Teorema 1.2, entonces se tiene una reconstrucci\'on perfecta:
 \begin{eqnarray}
 \sum_{i=0}^3 \tilde{s}_i\ast U(D(z\ast\tilde{u}_i))=z,\nonumber
 \end{eqnarray}
-para toda $z\in L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$, si y solo si:
+para toda $z\in \ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$, si y solo si:
 \begin{eqnarray}
 A(n_1,n_2)\left[\begin{array}{c}
 \hat{s}_0\\ \hat{s}_1\\ \hat{s}_2\\ \hat{s}_3
@@ -439,8 +446,8 @@ para todo $n_1,n_2$. En el caso de que $A(n_1,n_2)$ sea unitaria, entonces $s_i=
 \begin{eqnarray}
 \bigcup_{m=0}^{3}\{R_{2k_1,2k_2}u_m\},\nonumber
 \end{eqnarray}
-es un conjunto biortogonal consigo mismo en $L^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ entonces la matriz $A(n_1,n_2)$ es unitaria y, por tanto:
+es un conjunto biortogonal consigo mismo en $\ell^2(\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2})$ entonces la matriz $A(n_1,n_2)$ es unitaria y, por tanto:
 \begin{eqnarray}
 \sum_{i=0}^3 u_i\ast U(D(z\ast\tilde{u}_i))=z,\nonumber
 \end{eqnarray}
-constituye una reconstrucci\'on perfecta de una imagen $z$. Esto quiere decir que al igual que en una sola dimensi\'on, el problema de crear una base wavelet que permita detectar un patr\'on, se reduce al c\'alculo efectivo de un banco de filtros $\{u_i\}\cup\{\tilde{u}_i\}$ ahora biortogonal. Este constituye el pr\'oximo paso en la tarea de crear una shapelet de dos dimensiones.\\
+constituye una reconstrucci\'on perfecta de una imagen $z$. Esto quiere decir que al igual que en una sola dimensi\'on, el problema de crear una base wavelet que permita detectar un patr\'on, se reduce al c\'alculo efectivo de un banco de filtros $\{u_i\}\cup\{\tilde{u}_i\}$, ahora biortogonal. Este constituye el pr\'oximo paso en la tarea de crear una shapelet de dos dimensiones.\\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.11)  28 NOV 2022 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.11)  7 DEC 2022 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,11 +451,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'apa.dbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.dbx
-File: apa.dbx 2020/02/01 v9.5 APA biblatex style data model
-)
+Package biblatex Info: ... file 'nature.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count310
@@ -494,50 +490,38 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedshortauthor=\count343
 \c@shorteditor=\count344
 \c@savedshorteditor=\count345
-\c@groupauthor=\count346
-\c@savedgroupauthor=\count347
-\c@narrator=\count348
-\c@savednarrator=\count349
-\c@execproducer=\count350
-\c@savedexecproducer=\count351
-\c@execdirector=\count352
-\c@savedexecdirector=\count353
-\c@with=\count354
-\c@savedwith=\count355
-\c@labelname=\count356
-\c@savedlabelname=\count357
-\c@institution=\count358
-\c@savedinstitution=\count359
-\c@lista=\count360
-\c@savedlista=\count361
-\c@listb=\count362
-\c@savedlistb=\count363
-\c@listc=\count364
-\c@savedlistc=\count365
-\c@listd=\count366
-\c@savedlistd=\count367
-\c@liste=\count368
-\c@savedliste=\count369
-\c@listf=\count370
-\c@savedlistf=\count371
-\c@location=\count372
-\c@savedlocation=\count373
-\c@organization=\count374
-\c@savedorganization=\count375
-\c@origlocation=\count376
-\c@savedoriglocation=\count377
-\c@origpublisher=\count378
-\c@savedorigpublisher=\count379
-\c@publisher=\count380
-\c@savedpublisher=\count381
-\c@language=\count382
-\c@savedlanguage=\count383
-\c@origlanguage=\count384
-\c@savedoriglanguage=\count385
-\c@citation=\count386
-\c@savedcitation=\count387
-\c@pageref=\count388
-\c@savedpageref=\count389
+\c@labelname=\count346
+\c@savedlabelname=\count347
+\c@institution=\count348
+\c@savedinstitution=\count349
+\c@lista=\count350
+\c@savedlista=\count351
+\c@listb=\count352
+\c@savedlistb=\count353
+\c@listc=\count354
+\c@savedlistc=\count355
+\c@listd=\count356
+\c@savedlistd=\count357
+\c@liste=\count358
+\c@savedliste=\count359
+\c@listf=\count360
+\c@savedlistf=\count361
+\c@location=\count362
+\c@savedlocation=\count363
+\c@organization=\count364
+\c@savedorganization=\count365
+\c@origlocation=\count366
+\c@savedoriglocation=\count367
+\c@origpublisher=\count368
+\c@savedorigpublisher=\count369
+\c@publisher=\count370
+\c@savedpublisher=\count371
+\c@language=\count372
+\c@savedlanguage=\count373
+\c@origlanguage=\count374
+\c@savedoriglanguage=\count375
+\c@pageref=\count376
+\c@savedpageref=\count377
 \shorthandwidth=\skip60
 \shortjournalwidth=\skip61
 \shortserieswidth=\skip62
@@ -563,33 +547,43 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count390
-\c@textcitetotal=\count391
-\c@textcitemaxnames=\count392
-\c@biburlbigbreakpenalty=\count393
-\c@biburlbreakpenalty=\count394
-\c@biburlnumpenalty=\count395
-\c@biburlucpenalty=\count396
-\c@biburllcpenalty=\count397
+\c@textcitecount=\count378
+\c@textcitetotal=\count379
+\c@textcitemaxnames=\count380
+\c@biburlbigbreakpenalty=\count381
+\c@biburlbreakpenalty=\count382
+\c@biburlnumpenalty=\count383
+\c@biburlucpenalty=\count384
+\c@biburllcpenalty=\count385
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count398
+\c@smartand=\count386
 )
-Package biblatex Info: Trying to load bibliography style 'apa'...
-Package biblatex Info: ... file 'apa.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'nature'...
+Package biblatex Info: ... file 'nature.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.bbx
-File: apa.bbx 2020/02/01 v9.5 APA biblatex references style
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+File: nature.bbx 2018/10/18 v1.3c biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count399
-\c@bbx:relatedtotal=\count400
-))
+\c@bbx:relatedcount=\count387
+\c@bbx:relatedtotal=\count388
+))))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
@@ -626,14 +620,14 @@ s
 \f@nch@O@olf=\skip81
 \f@nch@O@orf=\skip82
 )
-Package biblatex Info: Redefining '\cite' on input line 74.
-Package biblatex Info: Redefining '\parencite' on input line 88.
-Package biblatex Info: Redefining '\footcite' on input line 102.
-Package biblatex Info: Redefining '\footcitetext' on input line 109.
-Package biblatex Info: Redefining '\textcite' on input line 116.
-\c@theorem=\count401
-\c@definition=\count402
-\c@lemma=\count403
+Package biblatex Info: Redefining '\cite' on input line 76.
+Package biblatex Info: Redefining '\parencite' on input line 90.
+Package biblatex Info: Redefining '\footcite' on input line 104.
+Package biblatex Info: Redefining '\footcitetext' on input line 111.
+Package biblatex Info: Redefining '\textcite' on input line 118.
+\c@theorem=\count389
+\c@definition=\count390
+\c@lemma=\count391
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
@@ -643,10 +637,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip85
 \subfigcapmargin=\dimen146
 \subfiglabelskip=\skip86
-\c@subfigure=\count404
-\c@lofdepth=\count405
-\c@subtable=\count406
-\c@lotdepth=\count407
+\c@subfigure=\count392
+\c@lofdepth=\count393
+\c@subtable=\count394
+\c@lotdepth=\count395
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -657,12 +651,12 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count408
+\c@AlgoLine=\count396
 \algocf@hangindent=\skip89
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count409
+\c@checkoddpage=\count397
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -700,9 +694,9 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip105
 \algotitleheightruledefault=\skip106
 \algotitleheightrule=\skip107
-\c@algocfline=\count410
-\c@algocfproc=\count411
-\c@algocf=\count412
+\c@algocfline=\count398
+\c@algocfproc=\count399
+\c@algocf=\count400
 \algocf@algoframe=\box52
 \algocf@algobox=\box53
 )
@@ -726,13 +720,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count413
+\inf@bad=\count401
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count414
-\leftroot@=\count415
+\uproot@=\count402
+\leftroot@=\count403
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count416
-\DOTSCASE@=\count417
+\classnum@=\count404
+\DOTSCASE@=\count405
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -741,15 +735,15 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen155
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count418
-\c@MaxMatrixCols=\count419
+\macc@depth=\count406
+\c@MaxMatrixCols=\count407
 \dotsspace@=\muskip21
-\c@parentequation=\count420
-\dspbrk@lvl=\count421
+\c@parentequation=\count408
+\dspbrk@lvl=\count409
 \tag@help=\toks22
-\row@=\count422
-\column@=\count423
-\maxfields@=\count424
+\row@=\count410
+\column@=\count411
+\maxfields@=\count412
 \andhelp@=\toks23
 \eqnshift@=\dimen156
 \alignsep@=\dimen157
@@ -789,8 +783,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 61.
 \caption@hangindent=\dimen168
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count425
-\c@continuedfloat=\count426
+\c@caption@flags=\count413
+\c@continuedfloat=\count414
 Package caption Info: hyperref package is loaded.
 Package caption Info: subfigure package is loaded.
 )
@@ -806,17 +800,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen176
 \cmidrulekern=\dimen177
 \defaultaddspace=\dimen178
-\@cmidla=\count427
-\@cmidlb=\count428
+\@cmidla=\count415
+\@cmidlb=\count416
 \@aboverulesep=\dimen179
 \@belowrulesep=\dimen180
-\@thisruleclass=\count429
-\@lastruleclass=\count430
+\@thisruleclass=\count417
+\@lastruleclass=\count418
 \@thisrulewidth=\dimen181
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count431
+\c@float@type=\count419
 \float@exts=\toks26
 \float@box=\box56
 \@float@everytoks=\toks27
@@ -871,14 +865,14 @@ ex
 \pgf@yd=\dimen193
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count432
-\c@pgf@countb=\count433
-\c@pgf@countc=\count434
-\c@pgf@countd=\count435
+\c@pgf@counta=\count420
+\c@pgf@countb=\count421
+\c@pgf@countc=\count422
+\c@pgf@countd=\count423
 \t@pgf@toka=\toks32
 \t@pgf@tokb=\toks33
 \t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count436
+\pgf@sys@id@count=\count424
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -894,8 +888,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count437
-\pgfsyssoftpath@bigbuffer@items=\count438
+\pgfsyssoftpath@smallbuffer@items=\count425
+\pgfsyssoftpath@bigbuffer@items=\count426
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -909,7 +903,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen194
-\pgfmath@count=\count439
+\pgfmath@count=\count427
 \pgfmath@box=\box59
 \pgfmath@toks=\toks35
 \pgfmath@stack@operand=\toks36
@@ -933,7 +927,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count440
+\c@pgfmathroundto@lastzeros=\count428
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -972,7 +966,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count441
+\pgf@picture@serial@count=\count429
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1005,8 +999,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen274
-\pgf@sys@shading@range@num=\count442
-\pgf@shadingcount=\count443
+\pgf@sys@shading@range@num=\count430
+\pgf@shadingcount=\count431
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -1066,7 +1060,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count444
+\pgf@plot@mark@count=\count432
 \pgfplotmarksize=\dimen279
 )
 \tikz@lastx=\dimen280
@@ -1081,18 +1075,18 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box66
 \tikz@tempbox=\box67
 \tikz@tempbox@bg=\box68
-\tikztreelevel=\count445
-\tikznumberofchildren=\count446
-\tikznumberofcurrentchild=\count447
-\tikz@fig@count=\count448
+\tikztreelevel=\count433
+\tikznumberofchildren=\count434
+\tikznumberofcurrentchild=\count435
+\tikz@fig@count=\count436
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count449
-\pgfmatrixcurrentcolumn=\count450
-\pgf@matrix@numberofcolumns=\count451
+\pgfmatrixcurrentrow=\count437
+\pgfmatrixcurrentcolumn=\count438
+\pgf@matrix@numberofcolumns=\count439
 )
-\tikz@expandcount=\count452
+\tikz@expandcount=\count440
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1115,37 +1109,37 @@ File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count453
-\calc@Bcount=\count454
+\calc@Acount=\count441
+\calc@Bcount=\count442
 \calc@Adimen=\dimen288
 \calc@Bdimen=\dimen289
 \calc@Askip=\skip111
 \calc@Bskip=\skip112
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count455
+\calc@Ccount=\count443
 \calc@Cskip=\skip113
 )
-\c@@todonotes@numberoftodonotes=\count456
+\c@@todonotes@numberoftodonotes=\count444
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count457
+\lst@mode=\count445
 \lst@gtempboxa=\box69
 \lst@token=\toks40
-\lst@length=\count458
+\lst@length=\count446
 \lst@currlwidth=\dimen290
-\lst@column=\count459
-\lst@pos=\count460
+\lst@column=\count447
+\lst@pos=\count448
 \lst@lostspace=\dimen291
 \lst@width=\dimen292
-\lst@newlines=\count461
-\lst@lineno=\count462
+\lst@newlines=\count449
+\lst@lineno=\count450
 \lst@maxwidth=\dimen293
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count463
-\lst@skipnumbers=\count464
+\c@lstnumber=\count451
+\lst@skipnumbers=\count452
 \lst@framebox=\box70
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -1155,14 +1149,14 @@ Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count465
+\c@tracingmulticols=\count453
 \mult@box=\box71
 \multicol@leftmargin=\dimen294
-\c@unbalance=\count466
-\c@collectmore=\count467
-\doublecol@number=\count468
-\multicoltolerance=\count469
-\multicolpretolerance=\count470
+\c@unbalance=\count454
+\c@collectmore=\count455
+\doublecol@number=\count456
+\multicoltolerance=\count457
+\multicolpretolerance=\count458
 \full@width=\dimen295
 \page@free=\dimen296
 \premulticols=\dimen297
@@ -1213,15 +1207,15 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box112
 \@tempa=\box113
 \@tempa=\box114
-\c@minrows=\count471
-\c@columnbadness=\count472
-\c@finalcolumnbadness=\count473
+\c@minrows=\count459
+\c@columnbadness=\count460
+\c@finalcolumnbadness=\count461
 \last@try=\dimen300
 \multicolovershoot=\dimen301
 \multicolundershoot=\dimen302
 \mult@nat@firstbox=\box115
 \colbreak@box=\box116
-\mc@col@check@num=\count474
+\mc@col@check@num=\count462
 )
 \@float@every@table=\toks41
 \@nomenclaturefile=\write5
@@ -1235,7 +1229,7 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count475
+\l__kernel_color_stack_int=\count463
 \l__pdf_internal_box=\box117
 )
 (./Thesis.aux
@@ -1277,16 +1271,16 @@ Package tocbasic Info: usage of `tocbibind' detected on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count476
+\scratchcounter=\count464
 \scratchdimen=\dimen303
 \scratchbox=\box118
-\nofMPsegments=\count477
-\nofMParguments=\count478
+\nofMPsegments=\count465
+\nofMParguments=\count466
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count479
+\MPscratchCnt=\count467
 \MPscratchDim=\dimen304
-\MPnumerator=\count480
-\makeMPintoPDFobject=\count481
+\MPnumerator=\count468
+\makeMPintoPDFobject=\count469
 \everyMPtoPDFconversion=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1309,7 +1303,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count482
+\c@section@level=\count470
 )
 LaTeX Info: Redefining \ref on input line 78.
 LaTeX Info: Redefining \pageref on input line 78.
@@ -1319,23 +1313,12 @@ LaTeX Info: Redefining \nameref on input line 78.
 \@outlinefile=\write6
 \openout6 = `Thesis.out'.
 
-Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
-Package biblatex Info: ... file 'spanish-apa.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
-File: spanish-apa.lbx 2020/02/01 v9.5 APA biblatex localisation
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
 File: spanish.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load language 'spanish'...
-Package biblatex Info: ... file 'spanish.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1352,7 +1335,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-\c@lstlisting=\count483
+\c@lstlisting=\count471
 <Graphics/uhlogo.pdf, id=131, 375.98297pt x 481.67456pt>
 File: Graphics/uhlogo.pdf Graphic file (type pdf)
 <use Graphics/uhlogo.pdf>
@@ -1457,14 +1440,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ] (./Thesis.lof
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-
-[9
-
-])
+)
 \tf@lof=\write8
 \openout8 = `Thesis.lof'.
 
- [10] (./Thesis.lol)
+
+[9
+
+] [10] (./Thesis.lol)
 \tf@lol=\write9
 \openout9 = `Thesis.lol'.
 
@@ -1500,12 +1483,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<Graphics/FourierOnda.png, id=325, 488.82625pt x 184.69pt>
+<Graphics/FourierOnda.png, id=321, 488.82625pt x 184.69pt>
 File: Graphics/FourierOnda.png Graphic file (type png)
 <use Graphics/FourierOnda.png>
 Package pdftex.def Info: Graphics/FourierOnda.png  used on input line 35.
 (pdftex.def)             Requested size: 128.0391pt x 82.51227pt.
-<Graphics/FuncionWavelet.png, id=327, 361.35pt x 222.8325pt>
+<Graphics/FuncionWavelet.png, id=323, 361.35pt x 222.8325pt>
 File: Graphics/FuncionWavelet.png Graphic file (type png)
 <use Graphics/FuncionWavelet.png>
 Package pdftex.def Info: Graphics/FuncionWavelet.png  used on input line 36.
@@ -1627,49 +1610,69 @@ l.85 \begin{eqnarray}
 r (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \begin{eqnarray}
+l.92 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \begin{eqnarray}
+l.92 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \begin{eqnarray}
+l.92 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \begin{eqnarray}
-                     
-LaTeX Info: Redefining \. on input line 96.
-LaTeX Info: Redefining \% on input line 96.
+l.92 \begin{eqnarray}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \begin{eqnarray}
+                      
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
  [6]pdfTeX warning (ext4): destination with the same identifier (name{equation.
 1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \begin{eqnarray}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.1.1.1}) has been already used, duplicate ignored
+l.105 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \begin{eqnarray}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.1.1.1}) has been already used, duplicate ignored
+l.105 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \begin{eqnarray}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.1.1.1}) has been already used, duplicate ignored
+l.105 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \begin{eqnarray}
-                     
-Overfull \hbox (17.34537pt too wide) in paragraph at lines 108--109
-[]\T1/lmr/m/n/12 Considerese es-ta úl-ti-ma de-fi-ni-ción. Sea $\OML/lmm/m/it/1
-2 u[] \OMS/lmsy/m/n/12 2 \OML/lmm/m/it/12 L[] []$ \T1/lmr/m/n/12 un vec-tor tal
+l.105 \begin{eqnarray}
+                      
+Overfull \hbox (14.28152pt too wide) in paragraph at lines 115--116
+[]\T1/lmr/m/n/12 Considérese es-ta úl-ti-ma de-fi-ni-ción. Sea $\OML/lmm/m/it/1
+2 u[] \OMS/lmsy/m/n/12 2 \OML/lmm/m/it/12 `[] []$ \T1/lmr/m/n/12 un vec-tor tal
  que $\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 R[]u[]\OMS/lmsy/m/n/12 g[]$
  []
 
@@ -1677,160 +1680,112 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 \begin{eqnarray}
+l.116 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 \begin{eqnarray}
+l.116 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 \begin{eqnarray}
+l.116 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 \begin{eqnarray}
+l.116 \begin{eqnarray}
                       
-Overfull \hbox (2.85968pt too wide) in paragraph at lines 111--113
-\T1/lmr/m/n/12 entonces, se cum-ple que $\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 R[]
-u[]\OMS/lmsy/m/n/12 g[] [ f\OML/lmm/m/it/12 R[]v[]\OMS/lmsy/m/n/12 g[]$ \T1/lmr
-/m/n/12 es una ba-se wa-ve-let en $\OML/lmm/m/it/12 L[] []$
- []
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-
-Overfull \hbox (1.9305pt too wide) in paragraph at lines 115--116
-[]\T1/lmr/m/it/12 Suponga que $\OML/lmm/m/it/12 N$ \T1/lmr/m/it/12 es di-vi-si-
-ble por $\OT1/lmr/m/n/12 2[]$\T1/lmr/m/it/12 . Se de-fi-ne $\OML/lmm/m/it/12 D[
-] \OT1/lmr/m/n/12 : \OML/lmm/m/it/12 L[] [] \OMS/lmsy/m/n/12 ! \OML/lmm/m/it/12
- L[] []$
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \begin{eqnarray}
+l.123 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \begin{eqnarray}
+l.123 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \begin{eqnarray}
+l.123 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \begin{eqnarray}
+l.123 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.131 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.131 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.131 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.131 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142 \begin{eqnarray}
                       
-Overfull \hbox (1.0819pt too wide) in paragraph at lines 123--124
-[]\T1/lmr/m/it/12 Suponga que $\OML/lmm/m/it/12 N$ \T1/lmr/m/it/12 es di-vi-si-
-ble por $\OT1/lmr/m/n/12 2[]$\T1/lmr/m/it/12 . Se de-fi-ne $\OML/lmm/m/it/12 U[
-] \OT1/lmr/m/n/12 : \OML/lmm/m/it/12 L[] [] \OMS/lmsy/m/n/12 ! \OML/lmm/m/it/12
- L[] []$
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
-1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \begin{eqnarray}
-                      
-LaTeX Info: Redefining \. on input line 140.
-LaTeX Info: Redefining \% on input line 140.
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
  [7]pdfTeX warning (ext4): destination with the same identifier (name{equation.
 1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \begin{eqnarray}
+l.150 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \begin{eqnarray}
+l.150 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \begin{eqnarray}
+l.150 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \begin{eqnarray}
+l.150 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149 \begin{eqnarray}
-                      
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.156 \begin{eqnarray}
@@ -1850,7 +1805,7 @@ er (name{equation.1.1.1}) has been already used, duplicate ignored
                    \relax 
 l.156 \begin{eqnarray}
                       
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
@@ -1858,31 +1813,56 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \begin{eqnarray}
+l.163 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \begin{eqnarray}
+l.163 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \begin{eqnarray}
+l.163 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \begin{eqnarray}
+l.163 \begin{eqnarray}
                       
 Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
-LaTeX Info: Redefining \. on input line 167.
-LaTeX Info: Redefining \% on input line 167.
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.169 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.169 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.169 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.169 \begin{eqnarray}
+                      
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+LaTeX Info: Redefining \. on input line 174.
+LaTeX Info: Redefining \% on input line 174.
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
@@ -1890,145 +1870,125 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 \begin{eqnarray}
+l.187 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 \begin{eqnarray}
+l.187 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 \begin{eqnarray}
+l.187 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 \begin{eqnarray}
+l.187 \begin{eqnarray}
                       
-LaTeX Info: Redefining \. on input line 186.
-LaTeX Info: Redefining \% on input line 186.
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
  [9]
-<Graphics/Daubechies.png, id=385, 1167.36125pt x 525.965pt>
+<Graphics/Daubechies.png, id=383, 1167.36125pt x 525.965pt>
 File: Graphics/Daubechies.png Graphic file (type png)
 <use Graphics/Daubechies.png>
-Package pdftex.def Info: Graphics/Daubechies.png  used on input line 216.
+Package pdftex.def Info: Graphics/Daubechies.png  used on input line 223.
 (pdftex.def)             Requested size: 408.58257pt x 184.0905pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
+LaTeX Info: Redefining \. on input line 231.
+LaTeX Info: Redefining \% on input line 231.
 [10pdfTeX warning (ext4): destination with the same identifier (name{equation.1
 .1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.224 
+l.231 
       ]pdfTeX warning (ext4): destination with the same identifier (name{equati
 on.1.1.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.226 \begin{eqnarray}
+l.233 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.226 \begin{eqnarray}
+l.233 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.226 \begin{eqnarray}
+l.233 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.226 \begin{eqnarray}
+l.233 \begin{eqnarray}
                       
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-LaTeX Info: Redefining \. on input line 238.
-LaTeX Info: Redefining \% on input line 238.
+LaTeX Info: Redefining \. on input line 245.
+LaTeX Info: Redefining \% on input line 245.
 [11 <./Graphics/Daubechies.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 252.
+(Font)              <10.95> on input line 259.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 252.
+(Font)              <8> on input line 259.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 252.
+(Font)              <6> on input line 259.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 252.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 259.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 252.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 259.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 252.
-<Graphics/Patron.png, id=400, 538.01pt x 167.62625pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 259.
+<Graphics/Patron.png, id=398, 538.01pt x 167.62625pt>
 File: Graphics/Patron.png Graphic file (type png)
 <use Graphics/Patron.png>
-Package pdftex.def Info: Graphics/Patron.png  used on input line 260.
+Package pdftex.def Info: Graphics/Patron.png  used on input line 267.
 (pdftex.def)             Requested size: 269.00433pt x 83.81291pt.
-LaTeX Info: Redefining \. on input line 284.
-LaTeX Info: Redefining \% on input line 284.
+LaTeX Info: Redefining \. on input line 291.
+LaTeX Info: Redefining \% on input line 291.
  [12pdfTeX warning (ext4): destination with the same identifier (name{equation.
 1.1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.284 \end{eqnarray}
+l.291 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.284 \end{eqnarray}
+l.291 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.284 \end{eqnarray}
+l.291 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.284 \end{eqnarray}
+l.291 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.284 \end{eqnarray}
+l.291 \end{eqnarray}
                      <./Graphics/Patron.png>]pdfTeX warning (ext4): destination
  with the same identifier (name{equation.1.1.6}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.286 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.286 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.286 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.286 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.1.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
 l.293 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.1.6}) has been already used, duplicate ignored
@@ -2045,252 +2005,280 @@ er (name{equation.1.1.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.293 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.300 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.300 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.300 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.1.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.300 \begin{eqnarray}
                       
-<Graphics/Signal.png, id=410, 967.615pt x 235.88126pt>
+<Graphics/Signal.png, id=408, 967.615pt x 235.88126pt>
 File: Graphics/Signal.png Graphic file (type png)
 <use Graphics/Signal.png>
-Package pdftex.def Info: Graphics/Signal.png  used on input line 303.
+Package pdftex.def Info: Graphics/Signal.png  used on input line 310.
 (pdftex.def)             Requested size: 387.03915pt x 94.35083pt.
-<Graphics/Similarity.png, id=412, 591.4095pt x 288.47775pt>
+<Graphics/Similarity.png, id=410, 591.4095pt x 288.47775pt>
 File: Graphics/Similarity.png Graphic file (type png)
 <use Graphics/Similarity.png>
-Package pdftex.def Info: Graphics/Similarity.png  used on input line 312.
+Package pdftex.def Info: Graphics/Similarity.png  used on input line 319.
 (pdftex.def)             Requested size: 236.5596pt x 115.38905pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 319.
-LaTeX Info: Redefining \% on input line 319.
+LaTeX Info: Redefining \. on input line 326.
+LaTeX Info: Redefining \% on input line 326.
 [13pdfTeX warning (ext4): destination with the same identifier (name{equation.1
 .1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \section
+l.326 \section
               {Wavelets en dos dimensiones}\label{cap:w2d} <./Graphics/Signal.p
 ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-LaTeX Info: Redefining \. on input line 333.
-LaTeX Info: Redefining \% on input line 333.
+LaTeX Info: Redefining \. on input line 340.
+LaTeX Info: Redefining \% on input line 340.
 [14 <./Graphics/Similarity.png>]
-LaTeX Info: Redefining \. on input line 383.
-LaTeX Info: Redefining \% on input line 383.
+LaTeX Info: Redefining \. on input line 390.
+LaTeX Info: Redefining \% on input line 390.
  [15pdfTeX warning (ext4): destination with the same identifier (name{equation.
 1.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.383 \end{eqnarray}
+l.390 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.383 \end{eqnarray}
+l.390 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.383 \end{eqnarray}
+l.390 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.383 \end{eqnarray}
+l.390 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.383 \end{eqnarray}
+l.390 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.1.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.383 \end{eqnarray}
+l.390 \end{eqnarray}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.385 \begin{eqnarray}
+l.392 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.385 \begin{eqnarray}
+l.392 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.385 \begin{eqnarray}
+l.392 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.385 \begin{eqnarray}
+l.392 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.394 \begin{eqnarray}
+l.401 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.394 \begin{eqnarray}
+l.401 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.394 \begin{eqnarray}
+l.401 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.394 \begin{eqnarray}
+l.401 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 \begin{eqnarray}
+l.414 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 \begin{eqnarray}
+l.414 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 \begin{eqnarray}
+l.414 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 \begin{eqnarray}
+l.414 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.411 \begin{eqnarray}
+l.418 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.411 \begin{eqnarray}
+l.418 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.411 \begin{eqnarray}
+l.418 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.411 \begin{eqnarray}
+l.418 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.423 \begin{eqnarray}
+l.430 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.423 \begin{eqnarray}
+l.430 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.423 \begin{eqnarray}
+l.430 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.423 \begin{eqnarray}
+l.430 \begin{eqnarray}
                       
-LaTeX Info: Redefining \. on input line 425.
-LaTeX Info: Redefining \% on input line 425.
+LaTeX Info: Redefining \. on input line 432.
+LaTeX Info: Redefining \% on input line 432.
  [16pdfTeX warning (ext4): destination with the same identifier (name{equation.
 1.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.425 \end{eqnarray}
+l.432 \end{eqnarray}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.427 \begin{eqnarray}
+l.434 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.427 \begin{eqnarray}
+l.434 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.427 \begin{eqnarray}
+l.434 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.427 \begin{eqnarray}
+l.434 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.439 \begin{eqnarray}
+l.446 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.439 \begin{eqnarray}
+l.446 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.439 \begin{eqnarray}
+l.446 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.439 \begin{eqnarray}
+l.446 \begin{eqnarray}
+                      
+Overfull \hbox (6.89742pt too wide) in paragraph at lines 448--450
+\T1/lmr/m/n/12 es un con-jun-to bior-to-go-nal con-si-go mis-mo en $\OML/lmm/m/
+it/12 `[]\OT1/lmr/m/n/12 (\U/msb/m/n/12 Z[] \OMS/lmsy/m/n/12 ^^B \U/msb/m/n/12 
+Z[]\OT1/lmr/m/n/12 )$ \T1/lmr/m/n/12 en-ton-ces la ma-triz $\OML/lmm/m/it/12 A\
+OT1/lmr/m/n/12 (\OML/lmm/m/it/12 n[]; n[]\OT1/lmr/m/n/12 )$
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2.
+6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.450 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.443 \begin{eqnarray}
+l.450 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.443 \begin{eqnarray}
+l.450 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.1.2.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.443 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.2.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.443 \begin{eqnarray}
+l.450 \begin{eqnarray}
                       )
-Underfull \hbox (badness 10000) in paragraph at lines 445--92
+Underfull \hbox (badness 10000) in paragraph at lines 452--92
 
  []
 
@@ -2311,21 +2299,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-
-Overfull \hbox (5.85387pt too wide) in paragraph at lines 11--12
-\OML/lmm/m/it/12 L[]\OT1/lmr/m/n/12 (\U/msb/m/n/12 Z[]\OT1/lmr/m/n/12 )$\T1/lmr
-/m/n/12 , tal que $\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 R[]v[]\OMS/lmsy/m/n/12 g[
-] [ f\OML/lmm/m/it/12 R[]v[]\OMS/lmsy/m/n/12 g[]$ \T1/lmr/m/n/12 cons-ti-tu-ye 
-una ba-se or-to-nor-mal de $\OML/lmm/m/it/12 L[]\OT1/lmr/m/n/12 (\U/msb/m/n/12 
-Z[]\OT1/lmr/m/n/12 )$\T1/lmr/m/n/12 ,
- []
-
 [18
 
 
 
 ]
-Underfull \hbox (badness 3503) in paragraph at lines 35--37
+Underfull \hbox (badness 3503) in paragraph at lines 36--38
 []\T1/lmr/m/n/12 Sea $\OML/lmm/m/it/12 s \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 u[]
  \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 u[] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 u[] 
 \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 u[]$\T1/lmr/m/n/12 , ha-llan-do el fac-tor c
@@ -2334,117 +2313,123 @@ o-mún $[]\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 m[]\OT1/lmr/m/n/12 )[]$ \T1/lmr/m/n/
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
 [19pdfTeX warning (ext4): destination with the same identifier (name{equation.2
 .1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.47 \end{eqnarray}
+l.49 \end{eqnarray}
                    pdfTeX warning (ext4): destination with the same identifier 
 (name{equation.2.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.47 \end{eqnarray}
+l.49 \end{eqnarray}
                    ]pdfTeX warning (ext4): destination with the same identifier
  (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \begin{eqnarray}
+l.51 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \begin{eqnarray}
+l.51 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \begin{eqnarray}
+l.51 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \begin{eqnarray}
+l.51 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \begin{eqnarray}
+l.58 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \begin{eqnarray}
+l.58 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \begin{eqnarray}
+l.58 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \begin{eqnarray}
+l.58 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \begin{eqnarray}
+l.67 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \begin{eqnarray}
+l.67 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \begin{eqnarray}
+l.67 \begin{eqnarray}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.2.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \begin{eqnarray}
+l.67 \begin{eqnarray}
                      
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 2717) in paragraph at lines 74--75
+[]\T1/lmr/m/n/12 El pro-ble-ma se re-du-ce en-ton-ces a de-ter-mi-nar un con-ju
+n-to de vec-to-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
 [20pdfTeX warning (ext4): destination with the same identifier (name{equation.2
 .1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.75 \par
+l.79 \par
           Al a\~nadir dos nuevas ecuaciones, el sistema se puede volver inco...
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
 [21pdfTeX warning (ext4): destination with the same identifier (name{equation.2
 .2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.91 
+l.95 
      ]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
@@ -2475,211 +2460,207 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<Graphics/Newton.png, id=495, 462.528pt x 346.896pt>
+<Graphics/Newton.png, id=494, 462.528pt x 346.896pt>
 File: Graphics/Newton.png Graphic file (type png)
 <use Graphics/Newton.png>
 Package pdftex.def Info: Graphics/Newton.png  used on input line 21.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 [24 <./Graphics/Newton.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 <Graphics/CuasiNewton.png, id=504, 462.528pt x 346.896pt>
 File: Graphics/CuasiNewton.png Graphic file (type png)
 <use Graphics/CuasiNewton.png>
-Package pdftex.def Info: Graphics/CuasiNewton.png  used on input line 35.
+Package pdftex.def Info: Graphics/CuasiNewton.png  used on input line 36.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
-[25 <./Graphics/CuasiNewton.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-<Graphics/DescensoGradiente.png, id=512, 462.528pt x 346.896pt>
-File: Graphics/DescensoGradiente.png Graphic file (type png)
-<use Graphics/DescensoGradiente.png>
-Package pdftex.def Info: Graphics/DescensoGradiente.png  used on input line 49.
-
-(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+[25 <./Graphics/CuasiNewton.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 [26pdfTeX warning (ext4): destination with the same identifier (name{equation.3
 .1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.67 
-      <./Graphics/DescensoGradiente.png>]
-<Graphics/RungeKutta.png, id=522, 462.528pt x 346.896pt>
-File: Graphics/RungeKutta.png Graphic file (type png)
-<use Graphics/RungeKutta.png>
-Package pdftex.def Info: Graphics/RungeKutta.png  used on input line 70.
-(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-<Graphics/Gekko.png, id=529, 462.528pt x 346.896pt>
+l.66 
+     ]
+<Graphics/Gekko.png, id=528, 462.528pt x 346.896pt>
 File: Graphics/Gekko.png Graphic file (type png)
 <use Graphics/Gekko.png>
-Package pdftex.def Info: Graphics/Gekko.png  used on input line 80.
+Package pdftex.def Info: Graphics/Gekko.png  used on input line 69.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-LaTeX Info: Redefining \. on input line 89.
-LaTeX Info: Redefining \% on input line 89.
-[27 <./Graphics/RungeKutta.png>]
-<Graphics/GD_N.png, id=538, 1340.6085pt x 706.0779pt>
+<Graphics/GD_N.png, id=530, 1340.6085pt x 706.0779pt>
 File: Graphics/GD_N.png Graphic file (type png)
 <use Graphics/GD_N.png>
-Package pdftex.def Info: Graphics/GD_N.png  used on input line 96.
+Package pdftex.def Info: Graphics/GD_N.png  used on input line 86.
 (pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
-<Graphics/RK_N.png, id=539, 1340.6085pt x 706.0779pt>
+<Graphics/RK_N.png, id=531, 1340.6085pt x 706.0779pt>
 File: Graphics/RK_N.png Graphic file (type png)
 <use Graphics/RK_N.png>
-Package pdftex.def Info: Graphics/RK_N.png  used on input line 101.
+Package pdftex.def Info: Graphics/RK_N.png  used on input line 91.
 (pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
-<Graphics/GD_CN.png, id=540, 1340.6085pt x 706.0779pt>
+<Graphics/GD_CN.png, id=532, 1340.6085pt x 706.0779pt>
 File: Graphics/GD_CN.png Graphic file (type png)
 <use Graphics/GD_CN.png>
-Package pdftex.def Info: Graphics/GD_CN.png  used on input line 106.
+Package pdftex.def Info: Graphics/GD_CN.png  used on input line 96.
 (pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
-<Graphics/RK_CN.png, id=541, 1340.6085pt x 706.0779pt>
+<Graphics/RK_CN.png, id=533, 1340.6085pt x 706.0779pt>
 File: Graphics/RK_CN.png Graphic file (type png)
 <use Graphics/RK_CN.png>
-Package pdftex.def Info: Graphics/RK_CN.png  used on input line 111.
+Package pdftex.def Info: Graphics/RK_CN.png  used on input line 101.
 (pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
-<Graphics/GD_Gekko.png, id=542, 1340.6085pt x 706.0779pt>
+<Graphics/GD_Gekko.png, id=534, 1340.6085pt x 706.0779pt>
 File: Graphics/GD_Gekko.png Graphic file (type png)
 <use Graphics/GD_Gekko.png>
-Package pdftex.def Info: Graphics/GD_Gekko.png  used on input line 116.
+Package pdftex.def Info: Graphics/GD_Gekko.png  used on input line 106.
 (pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
-<Graphics/RK_Gekko.png, id=543, 1340.6085pt x 706.0779pt>
+<Graphics/RK_Gekko.png, id=535, 1340.6085pt x 706.0779pt>
 File: Graphics/RK_Gekko.png Graphic file (type png)
 <use Graphics/RK_Gekko.png>
-Package pdftex.def Info: Graphics/RK_Gekko.png  used on input line 121.
+Package pdftex.def Info: Graphics/RK_Gekko.png  used on input line 111.
 (pdftex.def)             Requested size: 195.12767pt x 102.76114pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+[27 <./Graphics/Gekko.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+[28 <./Graphics/GD_N.png> <./Graphics/RK_N.png> <./Graphics/GD_CN.png> <./Graph
+ics/RK_CN.png> <./Graphics/GD_Gekko.png> <./Graphics/RK_Gekko.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 123.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+23.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 133.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-33.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
- [28 <./Graphics/Gekko.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
-[29 <./Graphics/GD_N.png> <./Graphics/RK_N.png> <./Graphics/GD_CN.png> <./Graph
-ics/RK_CN.png> <./Graphics/GD_Gekko.png> <./Graphics/RK_Gekko.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-<Graphics/patternDetected1D.png, id=572, 725.71124pt x 797.98125pt>
-File: Graphics/patternDetected1D.png Graphic file (type png)
-<use Graphics/patternDetected1D.png>
-Package pdftex.def Info: Graphics/patternDetected1D.png  used on input line 170
-.
-(pdftex.def)             Requested size: 142.26057pt x 128.03271pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-LaTeX Info: Redefining \. on input line 184.
-LaTeX Info: Redefining \% on input line 184.
-[30pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+[29pdfTeX warning (ext4): destination with the same identifier (name{equation.3
 .2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.184 \par C
-            omo un segundo experimento, se generaron $676$ casos de prueba c...
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.
-1}) has been already used, duplicate ignored
+l.155 
+      pdfTeX warning (ext4): destination with the same identifier (name{equatio
+n.3.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.184 \par C
-            omo un segundo experimento, se generaron $676$ casos de prueba c...
+l.155 
+      ]
+<Graphics/patternDetected1D.png, id=573, 725.71124pt x 797.98125pt>
+File: Graphics/patternDetected1D.png Graphic file (type png)
+<use Graphics/patternDetected1D.png>
+Package pdftex.def Info: Graphics/patternDetected1D.png  used on input line 158
+.
+(pdftex.def)             Requested size: 142.26057pt x 128.03271pt.
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.
 1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.164 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.164 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.164 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.164 \begin{eqnarray}
+                      
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.184 \par C
-            omo un segundo experimento, se generaron $676$ casos de prueba c...
-]
-<Graphics/PrecRec1D.png, id=579, 462.528pt x 346.896pt>
+ []
+
+<Graphics/PrecRec1D.png, id=575, 462.528pt x 346.896pt>
 File: Graphics/PrecRec1D.png Graphic file (type png)
 <use Graphics/PrecRec1D.png>
-Package pdftex.def Info: Graphics/PrecRec1D.png  used on input line 188.
+Package pdftex.def Info: Graphics/PrecRec1D.png  used on input line 177.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
-LaTeX Info: Redefining \. on input line 193.
-LaTeX Info: Redefining \% on input line 193.
- [31 <./Graphics/patternDetected1D.png> <./Graphics/PrecRec1D.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+[30 <./Graphics/patternDetected1D.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+[31 <./Graphics/PrecRec1D.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-LaTeX Info: Redefining \. on input line 205.
-LaTeX Info: Redefining \% on input line 205.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
@@ -2688,189 +2669,176 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-LaTeX Info: Redefining \. on input line 219.
-LaTeX Info: Redefining \% on input line 219.
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
-
- []
-
-<Graphics/cWordList.png, id=607, 1340.6085pt x 706.0779pt>
+<Graphics/cWordList.png, id=602, 1340.6085pt x 706.0779pt>
 File: Graphics/cWordList.png Graphic file (type png)
 <use Graphics/cWordList.png>
-Package pdftex.def Info: Graphics/cWordList.png  used on input line 225.
+Package pdftex.def Info: Graphics/cWordList.png  used on input line 215.
 (pdftex.def)             Requested size: 268.11694pt x 141.21307pt.
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.
-1}) has been already used, duplicate ignored
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 239.
+LaTeX Info: Redefining \% on input line 239.
+[33pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.239 \begin{eqnarray}
+                      ]pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \begin{eqnarray}
+l.239 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \begin{eqnarray}
+l.239 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \begin{eqnarray}
+l.239 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \begin{eqnarray}
+l.239 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.249 \begin{eqnarray}
+l.243 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.249 \begin{eqnarray}
+l.243 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.249 \begin{eqnarray}
+l.243 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.249 \begin{eqnarray}
+l.243 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 \begin{eqnarray}
+l.247 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 \begin{eqnarray}
+l.247 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 \begin{eqnarray}
+l.247 \begin{eqnarray}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.3.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 \begin{eqnarray}
+l.247 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.251 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.251 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.251 \begin{eqnarray}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.251 \begin{eqnarray}
                       
-LaTeX Info: Redefining \. on input line 255.
-LaTeX Info: Redefining \% on input line 255.
- [34 <./Graphics/cWordList.png>]pdfTeX warning (ext4): destination with the sam
-e identifier (name{equation.3.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.257 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.257 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.257 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.257 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.261 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.261 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.261 \begin{eqnarray}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.261 \begin{eqnarray}
-                      
-Underfull \hbox (badness 10000) in paragraph at lines 265--267
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
-<Graphics/CDetect.png, id=613, 462.528pt x 346.896pt>
+<Graphics/CDetect.png, id=608, 462.528pt x 346.896pt>
 File: Graphics/CDetect.png Graphic file (type png)
 <use Graphics/CDetect.png>
-Package pdftex.def Info: Graphics/CDetect.png  used on input line 270.
+Package pdftex.def Info: Graphics/CDetect.png  used on input line 260.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
-LaTeX Info: Redefining \. on input line 276.
-LaTeX Info: Redefining \% on input line 276.
-[35 <./Graphics/CDetect.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
-<Graphics/MamografiaDetect.png, id=622, 462.528pt x 346.896pt>
+LaTeX Info: Redefining \. on input line 268.
+LaTeX Info: Redefining \% on input line 268.
+[34 <./Graphics/cWordList.png>]
+<Graphics/MamografiaDetect.png, id=617, 462.528pt x 346.896pt>
 File: Graphics/MamografiaDetect.png Graphic file (type png)
 <use Graphics/MamografiaDetect.png>
-Package pdftex.def Info: Graphics/MamografiaDetect.png  used on input line 283.
+Package pdftex.def Info: Graphics/MamografiaDetect.png  used on input line 273.
 
-(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
-LaTeX Info: Redefining \. on input line 289.
-LaTeX Info: Redefining \% on input line 289.
-[36 <./Graphics/MamografiaDetect.png>]
-<Graphics/MamografiaDetectPiece.png, id=629, 1340.6085pt x 706.0779pt>
+(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 279.
+LaTeX Info: Redefining \% on input line 279.
+[35 <./Graphics/CDetect.png>]
+<Graphics/MamografiaDetectPiece.png, id=624, 1340.6085pt x 706.0779pt>
 File: Graphics/MamografiaDetectPiece.png Graphic file (type png)
 <use Graphics/MamografiaDetectPiece.png>
 Package pdftex.def Info: Graphics/MamografiaDetectPiece.png  used on input line
- 292.
-(pdftex.def)             Requested size: 429.0035pt x 225.94954pt.
-<Graphics/MamografiaDetectFail.png, id=631, 1340.6085pt x 706.0779pt>
+ 282.
+(pdftex.def)             Requested size: 402.18565pt x 211.825pt.
+LaTeX Info: Redefining \. on input line 288.
+LaTeX Info: Redefining \% on input line 288.
+ [36 <./Graphics/MamografiaDetect.png> <./Graphics/MamografiaDetectPiece.png>]
+<Graphics/MamografiaDetectFail.png, id=632, 1340.6085pt x 706.0779pt>
 File: Graphics/MamografiaDetectFail.png Graphic file (type png)
 <use Graphics/MamografiaDetectFail.png>
 Package pdftex.def Info: Graphics/MamografiaDetectFail.png  used on input line 
-301.
-(pdftex.def)             Requested size: 429.0035pt x 225.94954pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Graphics/PrecRec2D.png, id=633, 1340.6085pt x 706.0779pt>
+291.
+(pdftex.def)             Requested size: 402.18565pt x 211.825pt.
+<Graphics/PrecRec2D.png, id=634, 1340.6085pt x 706.0779pt>
 File: Graphics/PrecRec2D.png Graphic file (type png)
 <use Graphics/PrecRec2D.png>
-Package pdftex.def Info: Graphics/PrecRec2D.png  used on input line 310.
+Package pdftex.def Info: Graphics/PrecRec2D.png  used on input line 300.
 (pdftex.def)             Requested size: 335.1513pt x 176.51903pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
-LaTeX Info: Redefining \. on input line 316.
-LaTeX Info: Redefining \% on input line 316.
-[37 <./Graphics/MamografiaDetectPiece.png>])
+)
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
- [38 <./Graphics/MamografiaDetectFail.png> <./Graphics/PrecRec2D.png>]
+ [37 <./Graphics/MamografiaDetectFail.png>]
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
- [39]
+ [38 <./Graphics/PrecRec2D.png>]
 \openout2 = `BackMatter/Conclusions.aux'.
 
- (./BackMatter/Conclusions.tex)
-[40
+
+(./BackMatter/Conclusions.tex) [39
 
 
 
@@ -2878,7 +2846,7 @@ LaTeX Info: Redefining \% on input line 94.
 ]
 \openout2 = `BackMatter/Recomendations.aux'.
 
- (./BackMatter/Recomendations.tex) [41
+ (./BackMatter/Recomendations.tex) [40
 
 
 
@@ -2886,40 +2854,40 @@ LaTeX Info: Redefining \% on input line 94.
 ]
 \openout2 = `BackMatter/Bibliography.aux'.
 
- (./BackMatter/Bibliography.tex
-[42
+
+(./BackMatter/Bibliography.tex [41
 
 
 
-]) [43]
+]) [42]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
  (./Thesis.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- (./FrontMatter/Dedication.aux)
-(./FrontMatter/Thanks.aux) (./FrontMatter/SupervisorOpinion.aux)
-(./FrontMatter/Abstract.aux) (./FrontMatter/Contents.aux)
-(./MainMatter/Introduction.aux) (./MainMatter/Background.aux)
-(./MainMatter/Proposal.aux) (./MainMatter/Implementation.aux)
-(./BackMatter/Conclusions.aux) (./BackMatter/Recomendations.aux)
-(./BackMatter/Bibliography.aux))
+
+(./FrontMatter/Dedication.aux) (./FrontMatter/Thanks.aux)
+(./FrontMatter/SupervisorOpinion.aux) (./FrontMatter/Abstract.aux)
+(./FrontMatter/Contents.aux) (./MainMatter/Introduction.aux)
+(./MainMatter/Background.aux) (./MainMatter/Proposal.aux)
+(./MainMatter/Implementation.aux) (./BackMatter/Conclusions.aux)
+(./BackMatter/Recomendations.aux) (./BackMatter/Bibliography.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A55EB62422FF9FA039BC0C3ADD737B0C;1729.
+(rerunfilecheck)             Checksum: 242E4334331526BB09CC2765BEA2A328;1729.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32860 strings out of 481239
- 600870 string characters out of 5920377
- 1389128 words of memory out of 5000000
- 47261 multiletter control sequences out of 15000+600000
+ 32370 strings out of 481239
+ 591236 string characters out of 5920377
+ 1321002 words of memory out of 5000000
+ 46776 multiletter control sequences out of 15000+600000
  622969 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,13n,106p,1494b,2706s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,13n,106p,1493b,2067s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2940,10 +2908,10 @@ exmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 tt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
-Output written on Thesis.pdf (54 pages, 1927096 bytes).
+Output written on Thesis.pdf (53 pages, 1892414 bytes).
 PDF statistics:
- 852 PDF objects out of 1000 (max. 8388607)
- 696 compressed objects within 7 object streams
- 174 named destinations out of 1000 (max. 500000)
- 444 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 835 PDF objects out of 1000 (max. 8388607)
+ 684 compressed objects within 7 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 434 words of extra memory for PDF output out of 10000 (max. 10000000)
 

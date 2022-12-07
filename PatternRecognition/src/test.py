@@ -11,7 +11,7 @@ if __name__ == '__main__':
                 if file.is_file():
                     name, ext = str(file.name).split('.')
                     if name[:3] == 'img' and ext == 'dcm':
-                        main_with_path(f"Images/{str(file.name)}","Images/pat02.dcm")
+                        main_with_path(f"{str(file.name)}","pat02.dcm")
     except:
         with open('test_data.json', 'r') as json_file:
             data = json.load(json_file)

@@ -21,38 +21,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Efectividad (\%) del m\'etodo Cuasi-Newton en el modelo para un aumento de la dimensi\'on.\relax }}{25}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Efectividad (\%) del m\'etodo de descenso por gradiente en el modelo para un aumento de la dimensi\'on.\relax }}{26}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Efectividad (\%) del m\'etodo de Gekko en el modelo para un aumento de la dimensi\'on.\relax }}{27}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Efectividad (\%) del m\'etodo de Runge-Kutta en el modelo para un aumento de la dimensi\'on.\relax }}{27}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Resultados obtenidos empleando los m\'etodos del Descenso por Gradiente y Runge-Kutta para encontrar una aproximaci\'on inicial y, los m\'etodos Newton, Cuasi-Newton y Gekko para resolver el sistema.\relax }}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Efectividad (\%) del m\'etodo de Gekko en el modelo para un aumento de la dimensi\'on.\relax }}{28}{figure.caption.19}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\begin {scriptsize} Descenso por Gradiente y Newton \end {scriptsize}}}}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Resultados obtenidos empleando los m\'etodos del Descenso por Gradiente y Runge-Kutta para encontrar una aproximaci\'on inicial y, los m\'etodos Newton, Cuasi-Newton y Gekko para resolver el sistema.\relax }}{29}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\begin {scriptsize} Runge-Kutta y Newton \end {scriptsize}}}}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\begin {scriptsize} Descenso por Gradiente y Newton \end {scriptsize}}}}{29}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\begin {scriptsize} Descenso por Gradiente y Cuasi-Newton \end {scriptsize}}}}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\begin {scriptsize} Runge-Kutta y Newton \end {scriptsize}}}}{29}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\begin {scriptsize} Runge-Kutta y Cuasi-Newton \end {scriptsize}}}}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\begin {scriptsize} Descenso por Gradiente y Cuasi-Newton \end {scriptsize}}}}{29}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\begin {scriptsize} Descenso por Gradiente y Gekko \end {scriptsize}}}}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\begin {scriptsize} Runge-Kutta y Cuasi-Newton \end {scriptsize}}}}{29}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\begin {scriptsize} Runge-Kutta y Gekko \end {scriptsize}}}}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\begin {scriptsize} Descenso por Gradiente y Gekko \end {scriptsize}}}}{29}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Vector $cD$ obtenido tras aplicar la DST (naranja) y la medida de similaridad con $\alpha =0.1$ (azul).\relax }}{30}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\begin {scriptsize} Runge-Kutta y Gekko \end {scriptsize}}}}{29}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Precisi\'on y Recobrado del algoritmo de una dimensi\'on para distintos valores del umbral usando la medida $\mathbb {S}$.\relax }}{31}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Vector $cD$ obtenido tras aplicar la DST (naranja) y la medida de similaridad con $\alpha =0.1$ (azul).\relax }}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Ejemplo de un patr\'on y una imagen de prueba.\relax }}{34}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Precisi\'on y Recobrado del algoritmo de una dimensi\'on para distintos valores del umbral usando la mediada $\mathbb {S}$.\relax }}{31}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Im\'agenes de aproximaci\'on, detalles horizontales, detalles verticales, detalles (com\'unmente llamados diagonales), imagen con el patr\'on se\~nalado y medida $\mathbb {S}$, en ese orden.\relax }}{35}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de un patr\'on y una imagen de prueba.\relax }}{34}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Resultados obtenidos en el proceso de detecci\'on de la anomal\'ia en la mamograf\'ia.\relax }}{36}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Imagenes de aproximaci\'on, detalles horizontales, detalles verticales, detalles (com\'unmente llamados diagonales), imagen con el patr\'on se\~nalado y medida $\mathbb {S}$, en ese orden.\relax }}{35}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Resultados obtenidos en el proceso de detecci\'on de la anomal\'ia irregular en la mamograf\'ia.\relax }}{36}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Resultados obtenidos en el proceso de detecci\'on de la anomal\'ia en la mamograf\'ia.\relax }}{36}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Resultados obtenidos en el proceso de reconocimiento en una imagen sin anomal\'ias.\relax }}{37}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Resultados obtenidos en el proceso de detecci\'on de la anomal\'ia irregular en la mamograf\'ia.\relax }}{37}{figure.caption.26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Resultados obtenidos en el proceso de reconocimiento en una imagen sin anomal\'ias.\relax }}{38}{figure.caption.27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Valores de precisi\'on y recobrado obtenidos durante el aumento de los datos procesados, de una colecci\'on de $200$ mamograf\'ias.\relax }}{38}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Valores de precisi\'on y recobrado obtenidos durante el aumento de los datos procesados, de una colecci\'on de $200$ mamograf\'ias.\relax }}{38}{figure.caption.26}%

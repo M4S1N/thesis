@@ -1,0 +1,183 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,
+			amssymb}
+\usepackage{graphics,graphicx,subfigure}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{hyperref,
+			url}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{color,
+			xcolor}
+
+\begin{document}
+
+\begin{center}
+\large{
+\rule{\textwidth}{0.5pt}
+\par Universidad de la Habana, MATCOM
+\par Probabilidades (2021)
+\vspace{0.4cm}
+\par \textcolor{cyan}{Clase Pr\'actica \#11}
+\par Enmanuel Verdesia Suárez C411
+\par Gabriel F. Mart\'in Fern\'andez C411
+\par Miguel A. Asin Barthelemy C411
+\rule{\textwidth}{1.5pt}
+}
+
+\par \textbf{Tema:} Teorema Central del L\'imite. Ley de los Grandes N\'umeros.
+\end{center}
+
+\vspace{0.5cm}
+\textbf{Ejercicios pr\'acticos:}
+
+\begin{itemize}
+
+%========================================================================================================================================================
+% Ejercicio 1
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\item[1.] \textit{\bfseries El ancho de banda que utiliza un usuario de la universidad es una variable aleatoria independiente para cada usuario y con  la misma distribuci\'on. Se conoce que su valor esperado es $1\,Kb/s$ y la desviaci\'on est\'andar es $0.5\,Kb/s$. Suponga que hay $100$ usuarios conectados en un momento determinado. Calcule la probabilidad de que el ancho de banda que se est\'a utilizando sobrepase los $96\,Kb/s$.}\\
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\par La probabilidad de que el ancho de banda sobrepase los $96\,Kb/s$ est\'a dada por $P\left(\displaystyle\sum_{i=1}^{100}{X_i}> 96\right)$. Por el teorema Central del L\'imite, se tiene
+\begin{eqnarray}
+P\left(\displaystyle\sum_{i=1}^{100}{X_i}> 96\right)&=&P\left(\frac{\displaystyle\sum_{i=1}^{100}{X_i}-100}{0.5\sqrt{100}}> \frac{96-100}{0.5\sqrt{100}}\right)\nonumber\\
+&\approx&P\left(Z>-\frac{4}{5}\right)\nonumber\\
+&=&1-P\left(Z\leq -\frac{4}{5}\right)\nonumber\\
+&=&1-\Phi\left(-\frac{4}{5}\right)\nonumber\\
+&=&\Phi\left(\frac{4}{5}\right)\nonumber\\
+&\approx&0.79\nonumber
+\end{eqnarray}\\
+
+%========================================================================================================================================================
+
+
+%========================================================================================================================================================
+% Ejercicio 2
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\item[2.] \textit{\bfseries El tama\~no ideal de un aula de primer a\~no de una universidad es de $150$ estudiantes. La direcci\'on de la universidad sabe de experiencias anteriores que, en promedio solo el $30\%$ de los aceptados por la universidad realmente asistir\'a por lo que utiliza la pol\'itica de aprobar $450$ solicitudes de admisi\'on. Calcule la probabilidad de que m\'as de $150$ estudiantes de primer a\~no asistan a esta universidad.}\\
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\par Den\'otese por $X_i$ la variable aleatoria que indica si el estudiante $i$ asistir\'a a la universidad. Como $X_i$ solo toma los valores $0$ y $1$ con probabilidades $0.7$ y $0.3$ respectivamente, se cumple que $X_i\sim Ber(0.3)$. Para cada $X_i$ se cumple que $\mathbb{E}X_i=0.3$ y $V(X_i)=0.21$. Se desea determinar la probabilidad de que m\'as de $150$ estudiantes de primer a\~no asistan a la universidad, dicho valor estar\'a dado por $P\left(\displaystyle\sum_{i=1}^{450}{X_i}> 150\right)$. Aplicando el Teorema Central del L\'imite
+\begin{eqnarray}
+P\left(\displaystyle\sum_{i=1}^{450}{X_i}> 150\right)&=&P\left(\frac{\displaystyle\sum_{i=1}^{450}{X_i}-450\cdot 0.3}{\sqrt{450\cdot 0.21}}> \frac{150-450\cdot 0.3}{\sqrt{450\cdot 0.21}}\right)\nonumber\\
+&\approx&P\left(Z>1.54\right)\nonumber\\
+&=&1-P\left(Z\leq 1.54\right)\nonumber\\
+&=&1-\Phi\left(1.54\right)\nonumber\\
+&\approx&1-0.93822\nonumber\\
+&=&0.06178\nonumber
+\end{eqnarray}\\
+
+%========================================================================================================================================================
+
+
+%========================================================================================================================================================
+% Ejercicio 3
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%========================================================================================================================================================
+
+
+%========================================================================================================================================================
+% Ejercicio 4
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%========================================================================================================================================================
+
+
+%========================================================================================================================================================
+% Ejercicio 5
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%========================================================================================================================================================
+
+%========================================================================================================================================================
+% Ejercicio 6
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%========================================================================================================================================================
+
+
+%========================================================================================================================================================
+% Ejercicio 7
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\item[7.] \textit{\bfseries De a\~nos pasados, un profesor sabe que el tiempo medio que le toma a un estudiante terminar una prueba final es una v.a. $X$
+con media $75$ minutos.}
+\begin{itemize}
+\item[a)] \textit{\bfseries D\'e una cota superior para la probabilidad de que un estudiante demore m\'as de $85$ minutos en terminar el examen.}
+\end{itemize}
+\textit{\bfseries Suponga adem\'as que el profesor conoce que la desviaci\'on est\'andar de $X$ es de $5$ minutos.}
+\begin{itemize}
+\item[b)] \textit{\bfseries ?`Qu\'e se puede decir de la probabilidad de que demore entre $65$ y $85$ minutos?}
+\item[c)] \textit{\bfseries ?`Cu\'antos estudiantes deben realizar el examen para asegurar con una probabilidad mayor o igual que $0.9$ que el promedio del tiempo que le tomar\'a a cada estudiante ser\'a menor de $90$ minutos?}
+\par \textit{\bfseries Sugerencia: Use el Teorema Central del L\'imite.}\\
+\end{itemize}
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{itemize}
+\item[a)] Dada la expresi\'on de la desigualdad de Markov:
+$$
+P(X\geq a)\leq \frac{\mathbb{E}X}{a}
+$$
+se conoce que el valor de $\mathbb{E}X=75$, tomando $a=85$ y asumieno que $X$ es una v.a. continua, se cumple
+$$
+P(X> 85)=P(X\geq 85)\leq \frac{75}{85}\approx 0.88
+$$
+En caso de ser una variable aleatoria discreta, sea $e$ el menor real positivo tal que $85+e\in\Omega$, luego
+$$
+P(X> 85)= P(X\geq 85+e)\leq \frac{75}{85+e}< \frac{75}{85}\approx 0.88
+$$
+
+\item[b)] Del hecho de que la desviaci\'on est\'andar de $X$ es $5$ se cumple que $V(X)=25$. Dado que para todo $k>0$:
+$$
+P(|X-\mathbb{E}X|\geq k)\leq \frac{V(X)}{k^2}
+$$
+se tiene
+\begin{eqnarray}
+P(65< X< 85)&=& P(-10<X-75<10)\nonumber\\
+&=&P(|X-75|<10)\nonumber\\
+&=&1-P(|X-75|\geq 10)\nonumber\\
+&\geq&1-\frac{25}{100}\nonumber\\
+&=&\frac{3}{4}\nonumber
+\end{eqnarray}
+por lo que $P(65<X<85)\geq \frac{3}{4}$.
+\par Aplicando el Teorema Central del L\'imite:
+\begin{eqnarray}
+P\left(65\,n< \sum_{i=1}^nX_i< 85\,n\right)&=& P(\sum_{i=1}^nX_i<85\,n)-P(\sum_{i=1}^nX_i\leq 65\,n)\nonumber\\
+&=&P\left(\frac{\displaystyle\sum_{i=1}^nX_i-75\,n}{5\sqrt{n}}<\frac{85\,n-75\,n}{5\sqrt{n}}\right)-\nonumber\\
+&&P\left(\frac{\displaystyle\sum_{i=1}^nX_i-75\,n}{5\sqrt{n}}\leq\frac{65\,n-75\,n}{5\sqrt{n}}\right)\nonumber\\
+&=&P\left(Z<2\sqrt{n}\right)-P\left(Z\leq -2\sqrt{n}\right)\nonumber\\
+&=&\Phi\left(2\sqrt{n}\right)-\Phi\left(-2\sqrt{n}\right)\nonumber\\
+&=&2\Phi\left(2\sqrt{n}\right)-1\nonumber\\
+&\geq&2\Phi\left(2\right)-1=0.9545\nonumber
+\end{eqnarray}
+Obteni\'endose una mejor cota inferior.
+
+\item[c)] Sea $n$ dicha cantidad de estudiantes. Dado que el promedio del tiempo que se tomar\'a cada estudiante debe ser menor que $90$, se debe cumplir que $\displaystyle\sum_{i=1}^n{X_i}<90\,n$ , por el teorema de Linderbeg-L\'evy se tiene
+\begin{eqnarray}
+P\left(\frac{\displaystyle\sum_{i=1}^n{X_i}-75\,n}{5\sqrt{n}}< \frac{90\,n-75\,n}{5\sqrt{n}}\right)&\approx&P\left(Z<\frac{15\,n}{5\sqrt{n}}\right)\nonumber\\
+&=&P(Z<3\sqrt{n})\nonumber\\
+&=&\Phi(3\sqrt{n})\nonumber
+\end{eqnarray}
+como $\Phi(k)\geq 0.9$ para toda $k>1.28$, se cumple que $\forall\,n>\left\lfloor\left(\frac{1.64}{3}\right)^2\right\rfloor=0$. Por lo que para cualquier cantidad de estudiantes mayor que cero, se puede asegurar con una probabilidad mayor o igual a $0.9$ que en promedio, cada uno se demorar\'a menos de $90$ minutos.
+
+\end{itemize}
+
+%========================================================================================================================================================
+
+\end{itemize}
+
+\end{document}

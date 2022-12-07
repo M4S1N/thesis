@@ -23,9 +23,10 @@
                 filecolor=black,menucolor=black,runcolor=black,%
                 urlcolor=black]{hyperref}
 \RequirePackage[
-	style=apa,
+	style=nature,
 	citestyle=numeric,
-  hyperref=true,
+	sorting=none,
+        hyperref=true,
 	backref=true
 	]{biblatex}
                 
@@ -71,6 +72,7 @@
 \renewcommand{\textfraction}{0.07}
 
 % Whole biblatex hyperref to bibliography
+\DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
 \DeclareCiteCommand{\cite}
   {\usebibmacro{prenote}}
   {\usebibmacro{citeindex}%

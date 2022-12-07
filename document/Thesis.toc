@@ -37,16 +37,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.4}M\'etodo de Runge-Kutta}{26}{subsection.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}Gekko}{27}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.5}Gekko}{26}{subsection.3.1.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.6}Mejores Resultados}{27}{subsection.3.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Algoritmo de reconocimiento en una dimensi\'on}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Algoritmo de reconocimiento en una dimensi\'on}{29}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Algoritmo de reconocimiento en dos dimensiones}{32}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Algoritmo de reconocimiento en dos dimensiones}{31}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusiones}{40}{section*.29}%
+\contentsline {chapter}{Conclusiones}{39}{section*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Recomendaciones}{41}{section*.31}%
+\contentsline {chapter}{Recomendaciones}{40}{section*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{42}{chapter*.33}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{41}{chapter*.31}%
